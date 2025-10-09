@@ -1,0 +1,532 @@
+{
+  "Homepage": {
+    "bilsaBankingCard": {
+      "title": "Vrijheid om te sparen, kracht om te kiezen",
+      "flexibility": {
+        "title": "Uw behoeften veranderen — wij ook: Altijd flexibel",
+        "description": "Van het aanpassen van uw limieten tot het beheren van uw rekeningen in realtime – ons platform past zich aan u aan. Geniet van volledige controle en een bankervaring die met u meebeweegt."
+      },
+      "saving": {
+        "title": "Sparen — Slimme tools om uw geld te laten groeien",
+        "description": "Stel doelen, automatiseer uw spaargeld en volg uw vooruitgang in realtime. Of het nu gaat om een noodfonds of een groot plan, sparen wordt eenvoudig en lonend."
+      },
+      "freedom": {
+        "title": "Uw bank voor vrij gebruik — Bankieren zoals u wilt",
+        "description": "Geen filialen, geen wachtrijen, geen grenzen. Beheer uw geld waar en wanneer u maar wilt. Onze digitale aanpak geeft u de volledige controle."
+      },
+      "bankingApp": {
+        "title": "Bankieren App — Uw bank altijd in uw zak",
+        "description": "Volg uw uitgaven, verstuur geld en behoud de controle — altijd en overal. Onze intuïtieve app brengt snelle en veilige bankdiensten binnen handbereik."
+      },
+      "cta": "Gratis bankrekening openen"
+    },
+     "elementor": {
+      "words": ["Ons", "Vrijheid", "Veiligheid", "Gemak"],
+      "title": "Kies {word}",
+      "subtitle": "Succesverhalen beginnen hier",
+      "cta": "Open gratis bankrekening"
+    },
+     "secondCard": {
+      "title": "Een nieuwe wereld van mogelijkheden",
+      "cards": [
+        {
+          "heading": "Veilige kaarten",
+          "body": "Kaarten met onafhankelijke tegoeden die u naar wens kunt verdelen."
+        },
+        {
+          "heading": "Bankieren moeiteloos gemaakt.",
+          "body": "Van het openen van uw account tot het beheren van uw dagelijkse financiën, elke stap is eenvoudig ontworpen. Geen jargon, geen complexiteit."
+        },
+        {
+          "heading": "Bankieren zonder beperkingen​",
+          "body": "Geen verborgen kosten, geen papierwerk, geen wachten. Open uw account, beheer uw financiën en krijg toegang tot alle functies."
+        }
+      ]
+    },
+
+    "lastCard": {
+  "noPaperwork": "Geen papierwerk",
+  "accountIn5Minutes": "Uw account in 5 minuten",
+  "registerBrowser": "Registreer via uw browser",
+  "createKey": "Maak een sleutel om uw betalingen en transacties te beschermen.",
+  "verifyIdentity": "Verifieer uw identiteit in een paar eenvoudige stappen",
+  "readyCard": "Klaar, je eerste gratis Bilsa is al klaar voor gebruik.",
+  "openAccount": "Open gratis account"
+},
+"securityCard": {
+  "title": "Uw veiligheid is onze hoogste prioriteit",
+  "description": "We gebruiken geavanceerde technologie om uw gegevens te beschermen, en uw tegoeden zijn tot €100.000 gegarandeerd via het Depositogarantiestelsel"
+},
+
+"accordionCard": {
+  "items": [
+    {
+      "index": "item-1",
+      "title": "Is Bilsa een bank?",
+      "body": "Bilsa is een van de weinige 100% mobiele banken die een Duitse bankvergunning van BaFin heeft. Dit betekent dat al uw stortingen op uw bankrekeningen tot €100.000 worden beschermd door het Duitse depositogarantiestelsel. We zijn momenteel actief in 9 markten en hebben meer dan 5 miljoen klanten."
+    },
+    {
+      "index": "item-2",
+      "title": "Is Bilsa veilig?",
+      "body": "Bilsa heeft een Duitse bankvergunning verkregen van BaFin. Volgens de huidige regelgeving zijn de fondsen van elke klant tot €100.000 beschermd door het Duitse depositogarantiestelsel. De veiligheid van de online betalingen van onze klanten is altijd gegarandeerd."
+    },
+    {
+      "index": "item-3",
+      "title": "Hoe beschermt Bilsa mijn geld en persoonlijke gegevens?",
+      "body": "Als bank wordt Bilsa gecontroleerd door de Duitse financiële toezichthouder (BaFin). De fondsen van onze klanten zijn tot €100.000 gegarandeerd en de Bilsa-app heeft meerdere functies om de veiligheid van rekeningen en gegevens te waarborgen."
+    },
+    {
+      "index": "item-4",
+      "title": "Hoe open ik een Bilsa-account?",
+      "body": "Om een Bilsa-account te openen, moet u ouder zijn dan 18 en een compatibele smartphone hebben. Indien nodig kunnen aanvullende documenten worden gevraagd."
+    },
+    {
+      "index": "item-5",
+      "title": "Welke documenten heb ik nodig om een bankrekening te openen?",
+      "body": "Er is geen ingewikkeld papierwerk nodig om een rekening bij Bilsa te openen. U hebt alleen een smartphone nodig. Andere documenten kunnen ook vereist zijn."
+    },
+    {
+      "index": "item-6",
+      "title": "Hoe lang duurt het om een Bilsa-account te openen?",
+      "body": "U kunt uw Bilsa-mobiele account in slechts enkele minuten online openen via de Bilsa-website, zonder papierwerk. Het beste: zodra uw account actief is, kunt u het direct gebruiken."
+    },
+    {
+      "index": "item-7",
+      "title": "Hoe krijg"
+    
+  }
+    ]
+    
+    
+}
+  },
+
+   "header": {
+    "logo": "BILSA",
+    "nav": {
+      "plans": "Plannen",
+      "about": "Over ons",
+      "contact": "Contact"
+    },
+    "buttons": {
+      "login": "Inloggen",
+      "register": "Open gratis rekening"
+    }
+  },
+  "footer": {
+    "brand": "BILSA",
+    "slogan": "De bank die in je zak past",
+    "legal": {
+      "title": "Juridisch",
+      "links": [
+        {"title": "Algemene voorwaarden", "url": "/#"},
+        {"title": "Juridische mededelingen", "url": "/#"},
+        {"title": "Instellingen voor toestemming", "url": "/#"},
+        {"title": "Groep", "url": "/#"}
+      ]
+    },
+    "contact": {
+      "title": "Contact",
+      "links": [
+        {"title": "E-mail", "url": "/#"},
+        {"title": "WhatsApp", "url": "/#"}
+      ]
+    },
+    "description": "BILSA is een vereenvoudigde naamloze vennootschap geregistreerd in het Handelsregister van Nice met een kapitaal van 4.450.000 euro. Meer dan een bank, het is een digitale ervaring: open binnen enkele minuten een account, beheer deze in realtime, geniet van verlaagde kosten en totale vrijheid vanaf je smartphone. Transparant, snel en 100% verbonden, het geeft je controle over je financiën zoals geen ander."
+  },
+  "Planspage" : { 
+
+   "pageTitle": "Onze abonnementen",
+  "pageSubtitle": "Ontdek alles wat Billsa te bieden heeft",
+  "toggleMonthly": "Maandelijks",
+  "toggleYearly": "Jaarlijks",
+  "plans": {
+    "free": {
+      "title": "Gratis",
+      "priceMonthly": "0,00 € / maand",
+      "priceYearly": "0,00 € / jaar",
+      "details": [
+        "Kaarten met gedeeld saldo",
+        "Maximale saldo: €2.500",
+        "Aankooplimiet: €1.500",
+        "Opwaarderingen: 500/dag",
+        "POS-opwaarderingen: 2/dag",
+        "1 % commissie per overschrijving",
+        "SEPA Instant-overschrijvingen voor 1",
+        "Geldautomaatopnames: 1/dag"
+      ]
+    },
+    "move": {
+      "title": "Move",
+      "priceMonthly": "0,00 € / maand",
+      "priceYearly": "0,00 € / jaar",
+      "details": [
+        "2 kaarten met gedeeld saldo en 3 met onafhankelijk saldo",
+        "Maximale saldo: €15.000",
+        "Aankooplimiet: €5.000",
+        "Opwaarderingen: €1.500/dag",
+        "POS-opwaarderingen: 3/dag",
+        "Overboekingslimiet: €1.200/dag",
+        "1 GRATIS SEPA Instant-overboeking",
+        "Geldautomaatopnames: 2/dag",
+        "Cashback: tot 15% in deelnemende winkels"
+      ]
+    },
+    "pro": {
+      "title": "Pro",
+      "priceMonthly": "9,99 € / maand",
+      "priceYearly": "9,99 € / jaar",
+      "details": [
+        "2 kaarten met gedeeld saldo en 6 met onafhankelijk saldo",
+        "Maximale saldo: ONBEPERKT",
+        "Aankooplimiet: €15.000",
+        "Opwaarderingen: €4.000/dag",
+        "POS-opwaarderingen: 4/dag",
+        "Overboekingen ONBEPERKT",
+        "2 GRATIS SEPA Instant-overboekingen",
+        "Overboekingen ZONDER COMMISSIE",
+        "Geldautomaatopnames: 4/dag",
+        "Cashback: tot 15% in deelnemende winkels"
+      ]
+    }
+  },
+  "faqTitle": "Veelgestelde vragen",
+  "faq": [
+  {
+    "index": "pitem-1",
+    "title": "Heeft de kaart kosten?",
+    "body": "De maximale kost voor de fysieke kaart is €20. De maximale kost voor de virtuele kaart is €5."
+  },
+  {
+    "index": "pitem-2",
+    "title": "Zijn er kosten voor overboekingen?",
+    "body": "Overboekingen naar een andere entiteit die niet dezelfde houder of Pecunpay zijn, worden in rekening gebracht €1,50."
+  },
+  {
+    "index": "pitem-3",
+    "title": "Is er commissie op betalingen?",
+    "body": "Aankopen in Spanje en in internationale winkels binnen de eurozone hebben geen commissie. In internationale vestigingen buiten de eurozone bedraagt de commissie 1,75 % op de wisselkoers. In de rest van de wereld is het 2 %."
+  }
+]
+
+},
+"contacts": {
+    "back": "terug",
+    "title": "24 uur voor jou",
+    "email": "E-mail",
+    "whatsapp": "WhatsApp"
+  },
+
+  "login": {
+    "title": "Inloggen",
+    "email": "E-mail",
+    "password": "Wachtwoord",
+    "forgot": "Wachtwoord vergeten?",
+    "submit": "Inloggen",
+    "loading": "Laden...",
+    "noAccount": "Geen account?",
+    "signup": "Aanmelden",
+    "authenticating": "Authenticatie",
+    "success": "Succesvol verbonden",
+    "error": "Inloggen mislukt ❌",
+    "unknownError": "Er is iets misgegaan ❌"
+  },
+
+  "nav-user" :{
+     "logoutLoading": "Bezig met uitloggen...",
+  "logoutError": "Fout bij uitloggen",
+  "account": "Account",
+  "logout": "Uitloggen"
+  },
+
+  "nav-main": {
+    "quickCreate": "Snel maken",
+    "transfer": "Overboeken",
+    "home": "Startpagina"
+  },
+
+   "section-cards": {
+    "helloUser": "Hallo {name} 👋",
+    "latestTransactions": "De nieuwste transacties met betrekking tot uw account verschijnen hieronder. Bekijk de transacties pagina voor een overzicht.",
+    "balance": "Saldo",
+    "iban": "IBAN",
+    "accountNumber": "Rekeningnummer"
+  },
+
+  "create-transaction": {
+    "title": "Verzend geld moeiteloos met Bilsa Bank",
+    "subtitle": "Stuur geld naar vrienden, familie of collega's in slechts een paar tikken — snel, veilig en zonder gedoe.",
+    "type": "Type",
+    "deposit": "Storting",
+    "transfer": "Overdragen",
+    "amount": "Bedrag",
+    "motif": "Motief",
+    "status": "Status",
+    "in_process": "In verwerking",
+    "completed": "Voltooid",
+    "failed": "Mislukt",
+    "sender_infos": "Afzender info",
+    "recipient_infos": "Ontvanger info",
+    "name": "Naam",
+    "iban": "IBAN",
+    "sending": "Verzenden…",
+    "send": "Verzenden",
+    "success": {
+      "created": "Transactie succesvol aangemaakt."
+    },
+     "insufficient_funds": "Onvoldoende saldo op uw rekening.",
+    "verification_required": "Uw account moet geverifieerd zijn om deze actie uit te voeren.",
+    "server": "Er is een serverfout opgetreden. Probeer het later opnieuw.",
+    "unknown": "Er is een onbekende fout opgetreden. Probeer het opnieuw."
+   
+  },
+
+  "errors": {
+    "nameRequired": "Naam is verplicht",
+    "nameTooLong": "Naam is te lang",
+    "ibanRequired": "IBAN is verplicht",
+    "ibanInvalid": "Ongeldig IBAN",
+    "noAccountId": "Geen account-ID opgegeven",
+    "amountInvalid": "Bedrag moet een geldig nummer zijn",
+    "senderRequired": "Afzenderinformatie is vereist voor een storting",
+    "receiverRequired": "Ontvangerinformatie is vereist voor een overschrijving"
+   
+  },
+
+  "transaction-actions": {
+  "copy_payment_id": "Betalings-ID kopiëren",
+  "view_transaction_details": "Transactiedetails bekijken",
+  "view_transaction_progression": "Voortgang van de transactie bekijken"
+},
+
+"history-labels": {
+  "in_process": "Bezig",
+  "status": "Status",
+  "amount": "Bedrag"
+},
+
+"transaction-progress": {
+  "back": "Terug",
+  "transaction_amount": "Transactie van :",
+  "to": "Naar :",
+  "status": "Status :",
+  "subtiltle": "Transactievoortgang",
+  "footer": "Een overzicht van de transactie is beschikbaar zodra deze is voltooid.",
+  "dialog": {
+  "action_needed": "Actie vereist",
+  "text_part1": "Er is een beveiligingscode van 6 tekens gegenereerd en verzonden naar",
+  "text_part2": "voor deze stap in het proces. De transactie wordt hervat zodra de code is ingevoerd.",
+  "placeholder": "Voer de code in",
+  "verify": "Verifiëren",
+  "is_submitting": "Verificatie ..."
+}
+
+},
+"data-table": {
+  "history": "Geschiedenis",
+  "no_transaction": "Nog geen transacties",
+  "previous": "Vorige",
+  "next": "Volgende"
+},
+
+"account": {
+  "back": "terug",
+  "personal_infos": {
+    "subtitle": "Over jou",
+    "birth_place": "geboren in",
+    "homeTown": "Komt uit",
+    "country": "Woont in "
+  },
+  "account_infos": {
+    "account_number": "Rekeningnummer :",
+    "currency": "Valuta :",
+    "status": "Status :",
+    "createdAt": "Aangemaakt op :",
+    "subtitle": "Accountgegevens"
+
+  },
+  "validation": {
+    "phrase": "Je kunt nog geen transacties uitvoeren. Valideer je account om volledig gebruik te maken van onze diensten.",
+    "verify": "Verifiëren"
+  }
+},
+
+"site-header": {
+  "slogan": "De bank die in je broekzak past"
+},
+
+"accountCreation": {
+    "step1": {
+      "heading": "Fijn dat je er bent. In een paar stappen naar je Bilsa-account",
+      "subheading": "Om je account te openen, laat ons je persoonlijke gegevens weten van je identiteitsdocument.",
+      "question": "Hoe mogen we je aanspreken?",
+      "whyAsk": "Waarom vragen we dit",
+      "address": "Adres",
+      "addressOptions": {
+        "woman": "Vrouw",
+        "lord": "Heer",
+        "other": "Anders"
+      },
+       "please_select": "Selecteer alstublieft",
+      "titleLabel": "Titel (optioneel)",
+      "firstName": "Voornaam(en)",
+      "surname": "Achternaam",
+      "birthname": "Geboortenaam (optioneel)",
+      "birthdate": "Geboortedatum",
+      "birthdateFormat": "(DD.MM.JJJJ)",
+      "birthplace": "Geboorteplaats",
+      "birthcountry": "Geboorteland",
+      "nationality": "Nationaliteit",
+      "continue": "Doorgaan"
+    },
+    "step2": {
+      "heading": "Wat is je registratieadres",
+      "whyAsk": "Waarom vragen we dit",
+      "postalCode": "Postcode",
+      "street": "Straat",
+      "houseNumber": "Huisnummer (optioneel)",
+      "residenceSince": "Woonachtig sinds (maand.jaar)",
+      "residenceSinceFormat": "(MM.JJJJ)",
+      "back": "Terug",
+      "continue": "Doorgaan"
+    },
+
+    "step3": {
+    "heading": "Wat is uw huidige baan?",
+    "question": "Hoe mogen wij u aanspreken?",
+    "whyAsk": "Waarom vragen we dit?",
+    "profession": "Beroep",
+    "please_specify": "Gelieve te specificeren",
+    "back": "Terug",
+    "continue": "Doorgaan",
+    "please_select" :"Selecteer alstublieft"
+  },
+  "step4": {
+    "heading": "Hoe kunnen we contact met u opnemen?",
+    "description": "Deze informatie is vrijwillig. Om uw account online te voltooien, moet u deze velden echter invullen. Als u deze informatie niet wilt verstrekken, kunt u een betaalrekening openen bij een Commerzbank-filiaal.",
+    "whyAsk": "Waarom vragen we dit?",
+    "phone": "Telefoonnummer",
+    "email": "E-mail",
+    "back": "Terug",
+    "continue": "Doorgaan"
+  },
+
+  "step5": {
+    "heading": "Creëer een veilige ruimte die is aangepast aan uw behoeften",
+    "whyAsk": "Waarom vragen we dit?",
+    "password": "Wachtwoord",
+    "password_help": "Kies een sterk wachtwoord met minstens 8 tekens, bestaande uit letters, cijfers en symbolen.",
+    "back": "Terug",
+    "submit": "Verzenden"
+  },
+
+  "steps": {
+    "step": "Stap {current} van {total} - {label}",
+    "labels": {
+      "personal": "Persoonlijke gegevens",
+      "address": "Inschrijvingsadres",
+      "employment": "Arbeidsrelatie",
+      "contact": "Contactgegevens",
+      "security": "Beveiliging"
+    }
+  },
+   "errors": {
+    "step1": {
+      "adress": "Selecteer hoe wij u moeten aanspreken",
+      "firstname": "Voornaam is verplicht",
+      "surname": "Achternaam is verplicht",
+      "birthdate": "Geboortedatum is verplicht",
+      "birthdate_format": "Datum moet in formaat DD.MM.JJJJ zijn",
+      "birthplace": "Geboorteplaats is verplicht",
+      "birthcountry": "Geboorteland is verplicht",
+      "nationality": "Nationaliteit is verplicht"
+    },
+    "step2": {
+      "postalcode_min": "De postcode moet minimaal 3 tekens bevatten",
+      "postalcode_max": "De postcode mag maximaal 10 tekens bevatten",
+      "street": "Straat is verplicht",
+      "dateresidence": "Formaat moet MM.JJJJ zijn"
+    },
+    "step3": {
+      "profession": "Beroep is verplicht",
+      "otherProfession": "Specificeer alstublieft uw beroep"
+    },
+    "step4": {
+      "phone": "Telefoonnummer is verplicht",
+      "phone_format": "Ongeldig telefoonnummer formaat",
+      "email": "E-mail is verplicht",
+      "email_format": "Ongeldig e‑mailformaat"
+    },
+    "step5": {
+      "password_min": "Wachtwoord moet ten minste 8 tekens bevatten.",
+      "password_lower": "Wachtwoord moet ten minste één kleine letter bevatten.",
+      "password_upper": "Wachtwoord moet ten minste één hoofdletter bevatten.",
+      "password_digit": "Wachtwoord moet ten minste één cijfer bevatten."
+    }
+  }
+  },
+
+  "asideProgress": {
+  "labels": {
+    "personal": "Persoonlijke gegevens",
+    "address": "Inschrijvingsadres",
+    "employment": "Arbeidsrelatie",
+    "contact": "Contactgegevens",
+    "security": "Beveiliging",
+    "title": "Je volgende stappen"
+  }
+},
+
+
+
+  "verifyAccount": {
+  "step1": {
+    "heading": "Hoi {firstname}👋",
+    "description": "Nog één stap en je hebt volledige toegang tot je Bilsa-account. Voltooi deze snelle stappen en ontgrendel al onze bankdiensten.",
+    "next": "Volgende"
+  },
+  "step2": {
+    "heading": "Kies een plan",
+    "description": "Kies het plan dat het beste bij je past en geniet van een bankervaring op maat van jouw levensstijl.",
+    "free": "Bilsa Gratis",
+    "move": "Bilsa Move",
+    "pro": "Bilsa Pro",
+    "learnMore": "Meer over onze plannen in de",
+    "planSection": "plannenpagina",
+    "back": "Terug",
+    "next": "Volgende"
+  },
+  "step3": {
+    "heading": "Bevestig uw e-mailadres",
+    "description": "We sturen een code naar uw e‑mail om deze te verifiëren. Deze e‑mail moet overeenkomen met degene die u bij registratie hebt opgegeven.",
+    "email": "E‑mail",
+    "send": "Code verzenden",
+    "back": "Terug"
+  },
+  "step4": {
+    "heading": "Apparaatverificatie",
+    "email": "E‑mail",
+    "codeSent": "We hebben zojuist uw authenticatiecode per e‑mail gestuurd naar",
+    "verify": "Verifiëren",
+    "back": "Terug"
+  }
+},
+
+ "formheader": {
+    "title": "Wilt u uw bestelling echt afronden?",
+    "paragraph1": "Let op: eerder ingevoerde informatie is niet meer beschikbaar. Klik op de knop \"Ok\" om de bestelling af te ronden. Nadat u op de link \"Terug\" hierboven heeft geklikt, keert u terug naar uw gegevens.",
+    "subtitle": "Heeft u vragen?",
+    "paragraph2": "Kom bij ons. We zijn 24 uur per dag beschikbaar op bilsabank.com",
+    "back": "Terug",
+    "no": "Nee, bestelling voortzetten",
+    "yes": "Ja, bestelling afronden"
+  }
+
+
+
+
+
+
+
+
+}

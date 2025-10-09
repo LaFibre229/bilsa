@@ -13,13 +13,14 @@ import bilsaLogo from '@/app/assets/BilsaLogo.png'
 import Image from "next/image"
 import Link from "next/link"
 import { FaLongArrowAltLeft } from "react-icons/fa"
-
+import { getTranslations } from "next-intl/server"
 
 
 
 export default async function TransactionDetailsPage({ params }) {
   const { id } =  await params
   let transaction = null;
+ 
   try {
     const res = await api.get(`/transactions/${id}`);
    transaction = res.data.transaction
@@ -52,7 +53,7 @@ const formatedTomerrow = tomorrow.toLocaleString("en-US", {
 
 
 const amount = parseFloat(transaction.amount);
-
+ const t = await getTranslations("account")
   
 
   return (
@@ -61,7 +62,7 @@ const amount = parseFloat(transaction.amount);
         <Link href={'/dashboard'}>
         <div className="flex flex-row items-center gap-2 pl-3 pb-7 cursor-pointer font-inter font-semibold text-lg text-textGreen">
            <FaLongArrowAltLeft />
-           <span className="font-bold">back</span>
+           <span className="font-bold">{t("back")}</span>
         </div>
         </Link>
 

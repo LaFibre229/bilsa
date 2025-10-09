@@ -12,10 +12,15 @@ import { FaMarsStroke, FaQuestionCircle, FaVenus , FaLongArrowAltRight, FaLongAr
 import { FaLocationDot, FaPhone } from "react-icons/fa6";
 import Link from 'next/link'
 import { IoHomeSharp } from 'react-icons/io5'
+import { useTranslations } from 'next-intl'
+
+
+
 
 const AccountPage = () => {
   const [userInfos,setUserInfos] = useState(null);
   const [isLoading, setIsLoading]=useState(true);
+  const t = useTranslations("account");
   useEffect(()=>{
    const fetchUserInfos = async () =>{
           try {
@@ -47,7 +52,7 @@ const AccountPage = () => {
 
           <Link href={'/dashboard'} className='flex flex-row items-center gap-3 text-textGreen text-lg '>
             <FaLongArrowAltLeft />
-            back
+           {t("back")}
           </Link>
             <div className='flex flex-row gap-4 items-center py-3 px-5 rounded-lg border border-borderGreen'>
                <span className='font-playfair font-xl font-medium p-2 rounded-full bg-neutral-50'> 
@@ -64,7 +69,7 @@ const AccountPage = () => {
                
                 
                 <div>
-                <h2 className='pb-3 text-lg font-montserrat font-medium'>A propos de vous </h2>
+                <h2 className='pb-3 text-lg font-montserrat font-medium'>{t("personal_infos.subtitle")}</h2>
                 <hr className='border-borderGreen'/>
                 </div>
 
@@ -111,19 +116,19 @@ const AccountPage = () => {
 
                  <div className='flex flex-row items-center gap-4 font-roboto'>
                   <LiaBirthdayCakeSolid className='opacity-50 w-5 h-5' />
-                  <span>{`${userInfos.user.birthdate} at ${userInfos.user.birthplace}`}</span>
+                  <span>{`${userInfos.user.birthdate} ${t("personal_infos.birth_place")} ${userInfos.user.birthplace}`}</span>
                   
                  </div>
 
                  <div className='flex flex-row items-center gap-4 font-roboto'>
                   <IoHomeSharp className='opacity-50 w-5 h-5'/>
-                  <span>From {userInfos.user.birthcountry}</span>
+                  <span>{t("personal_infos.homeTown")} {userInfos.user.birthcountry}</span>
                   
                  </div>
 
                  <div className='flex flex-row items-center gap-4 font-roboto'>
                   <FaLocationDot className='opacity-50 w-5 h-5'/>
-                  <span>{`Lives at  ${userInfos.user.postalcode} , ${userInfos.user.street}  ${userInfos.user.housenumber && (` , ${userInfos.user.housenumber}`)}`}</span>
+                  <span>{`${t("personal_infos.country")}  ${userInfos.user.postalcode} , ${userInfos.user.street}  ${userInfos.user.housenumber && (` , ${userInfos.user.housenumber}`)}`}</span>
                   
                  </div>
 
@@ -139,32 +144,31 @@ const AccountPage = () => {
 
             <div className='flex flex-col space-y-5 py-3 px-5 rounded-lg border border-borderGreen'>
                    <div>
-                     <h2 className='pb-3 text-lg font-montserrat font-medium'>Account Infos</h2>
+                     <h2 className='pb-3 text-lg font-montserrat font-medium'>{t("account_infos.subtitle")}</h2>
                      <hr  className='border-borderGreen'/>
                    </div>
 
                     <div className='flex flex-col items-start space-y-3'>
                       <div className='text-lg font-medium font-roboto'>Bilsa <span>{userInfos.account.plan}</span></div>
                       <div className='text-lg font-medium font-roboto'>IBAN :<span className='font-normal'> {userInfos.account.iban}</span></div>
-                      <div className='text-lg font-medium font-roboto'>Account Number :<span className='font-normal'> {userInfos.account.accountNumber}</span></div>
-                      <div className='text-lg font-medium font-roboto'>Currency :<span className='font-normal'> {userInfos.account.currency}</span></div>
-                      <div className='text-lg font-medium font-roboto'>Statut : <span className='font-normal'>{userInfos.account.statut}</span></div>
-                      <div className='text-lg font-medium font-roboto'>Created at : <span className='font-normal'>{userInfos.account.createdAt.split("T")[0]}</span></div>
+                      <div className='text-lg font-medium font-roboto'>{t("account_infos.account_number")} <span className='font-normal'> {userInfos.account.accountNumber}</span></div>
+                      <div className='text-lg font-medium font-roboto'>{t("account_infos.currency")}<span className='font-normal'> {userInfos.account.currency}</span></div>
+                      <div className='text-lg font-medium font-roboto'>{t("account_infos.status")}<span className='font-normal'>{userInfos.account.statut}</span></div>
+                      <div className='text-lg font-medium font-roboto'>{t("account_infos.createdAt")} <span className='font-normal'>{userInfos.account.createdAt.split("T")[0]}</span></div>
                     </div>
                  </div>
 
 
                  {userInfos.account.statut === "inactive"  && (
                   <div className='flex flex-col space-y-4 py-4'>
-                    <p className='font-roboto font-normal text-left text-textGreen'>Vous ne pouvez pas encore effectuer des opérations . Procédez a la validation
-                    de votre compte et beneficiez pleinement des services que nous proposons
+                    <p className='font-roboto font-normal text-left text-textGreen'>{t("validation.phrase")}
                    </p>
 
                    <Link 
                    href={'/dashboard/account/verify'}
                    className='flex flex-row items-center p-3 justify-center gap-4 rounded-md border-none text-textGreen font-inter font-semibold bg-goldButton '
                    >
-                   Verify My Account
+                  {t("validation.verify")}
                    <FaLongArrowAltRight />
                    </Link>
 

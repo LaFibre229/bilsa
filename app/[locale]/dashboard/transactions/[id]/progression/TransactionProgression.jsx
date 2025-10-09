@@ -17,6 +17,13 @@ import { Input } from '@/components/ui/input';
 import { Progress } from '@/components/ui/progress';
 import { useRouter } from 'next/navigation';
 import FullPageLoader from '@/components/FullPageLoader';
+import { useTranslations } from 'next-intl';
+
+
+
+
+
+
 const TransactionProgression = ({ transactionId }) => {
   // États locaux
   const [transaction, setTransaction] = useState(null);
@@ -25,6 +32,11 @@ const TransactionProgression = ({ transactionId }) => {
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [isVerifying, setIsVerifying] = useState(false);
   const router = useRouter();
+   const t = useTranslations("transaction-progress")
+
+
+
+
   // Fonction pour récupérer la transaction depuis l'API
   async function fetchTransaction() {
     try {
@@ -118,13 +130,13 @@ const TransactionProgression = ({ transactionId }) => {
         <h2 className='text-gray-600 text-center text-lg font-roboto p-2 bg-neutral-200 border-none rounded-md font-medium '>Transaction ID : <span className='italic text-gray-300 font-normal'>{transaction._id}</span></h2>
 
         <div className='flex flex-col space-y-4 w-full border-t border-muted'>
-          <div className='flex flex-row items-center justify-between'><span className='font-medium'>Transaction of :</span> <span className='font-normal'>{`${transaction.amount} EUR`}</span></div>
-          <div className='flex flex-row items-center justify-between'><span className='font-medium'>To :</span> <span className='font-normal'>{transaction.receiverInfos?.iban}</span></div>
-          <div className='flex flex-row items-center justify-between'><span className='font-medium'>Status :</span> <span className='font-normal'>Processing</span></div>
+            <div className='flex flex-row items-center justify-between'><span className='font-medium'>{t("transaction_amount")}</span> <span className='font-normal'>{`${transaction.amount} EUR`}</span></div>
+          <div className='flex flex-row items-center justify-between'><span className='font-medium'>{t("to")}</span> <span className='font-normal'>{transaction.receiverInfos?.iban}</span></div>
+          <div className='flex flex-row items-center justify-between'><span className='font-medium'>{t("status")}</span> <span className='font-normal'>Processing</span></div>
         </div>
       </div>
 
-      <h1 className="text-2xl font-semibold font-bold py-4 text-center">Transaction progress</h1>
+      <h1 className="text-2xl font-semibold font-bold py-4 text-center">{t("subtiltle")}</h1>
 
       <div className="flex flex-row items-center gap-3">
         <Progress value={transaction.progress?.percent || 0} />
@@ -133,7 +145,7 @@ const TransactionProgression = ({ transactionId }) => {
         </div>
       </div>
 
-      <p className='text-xs font-roboto text-center pt-4'>An overview of the transaction will be available once it is completed.</p>
+      <p className='text-xs font-roboto text-center pt-4'>{t("footer")}</p>
 
       
 
@@ -144,7 +156,7 @@ const TransactionProgression = ({ transactionId }) => {
             <DialogTitle className = "flex flex-row gap-4 justify-center text-textGreen items-center">
               {/* <div className='flex flex-row gap-6 items-center justify-center text-textGreen font-montserrat font-bold text-lg'> */}
            <FiAlertTriangle  className='text-red-600 w-8 h-8'/>
-           Action Needed
+           {t("dialog.action_needed")}
             {/* </div> */}
               </DialogTitle>
           </DialogHeader>
@@ -152,7 +164,7 @@ const TransactionProgression = ({ transactionId }) => {
             
 
             <p className="text-sm font-roboto leading-[1.5] text-textGreen">
-            A 6-character secure code has been generated and sent to <span className = "font-semibold">contact@bilsa.com </span> for this step of the progression. The transaction will resume once the code is entered.
+            {t("dialog.text_part1")} <span className = "font-semibold">contact@bilsa.com </span> {t("dialog.text_part2")}
           </p>
 
 
@@ -161,7 +173,7 @@ const TransactionProgression = ({ transactionId }) => {
 
           <Input
             type="text"
-            placeholder="Entrez le code"
+            placeholder={t("placeholder")}
             value={codeInput}
             onChange={e => setCodeInput(e.target.value)}
             disabled={isVerifying}
@@ -172,7 +184,7 @@ const TransactionProgression = ({ transactionId }) => {
             <Button onClick={handleVerifyCode} disabled={isVerifying}
              className={'bg-goldButton font-inter font-semibold text-textGreen hover:bg-goldButtonHover hover:text-primary-foreground'}
             >
-              {isVerifying ? 'Verification...' : 'Verify'}
+              {isVerifying ? t("dialog.is_submitting") : t("verify")}
              
             </Button>
           </DialogFooter>

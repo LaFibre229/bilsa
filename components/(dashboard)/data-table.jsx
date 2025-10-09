@@ -11,6 +11,8 @@ import {
    VisibilityState,
 } from "@tanstack/react-table"
 
+import { useTranslations } from "next-intl"
+
 import {
   DropdownMenu,
   DropdownMenuCheckboxItem,
@@ -36,7 +38,7 @@ export function DataTable({
 }) {
   const [sorting, setSorting] = React.useState([])
    const [columnVisibility, setColumnVisibility] = React.useState({})
-    
+    const t = useTranslations("data-table");
   const table = useReactTable({
     data,
     columns,
@@ -56,11 +58,11 @@ export function DataTable({
      <div className="flex flex-row items-center justify-between px-4">
    <div className="flex flex-row items-center gap-4 text-lg text-textGreen border border-borderGreen w-[150px] p-1 rounded-lg">
           <IconHistory className="text-goldButton" />
-          History
+          {t("history")}
           </div>
 
 
-       <DropdownMenu>
+       {/* <DropdownMenu>
           <DropdownMenuTrigger asChild>
             <Button variant="outline" className="ml-auto border-borderGreen ">
               Columns
@@ -87,7 +89,7 @@ export function DataTable({
                 )
               })}
           </DropdownMenuContent>
-        </DropdownMenu>
+        </DropdownMenu> */}
 
        
      </div>
@@ -128,7 +130,7 @@ export function DataTable({
           ) : (
             <TableRow>
               <TableCell colSpan={columns.length} className="h-24 text-center text-lg font-montserrat font-normal text-darkGrayishBlue">
-                No Transaction yet 
+                {t("no_transaction")}
               </TableCell>
             </TableRow>
           )}
@@ -144,7 +146,7 @@ export function DataTable({
           disabled={!table.getCanPreviousPage()}
           className={'border p-2 border-textGreen bg-transparent font-inter font-semibold rounded-md cursor-pointer px-6 py-3'}
         >
-          Previous
+          {t("previous")}
         </Button>
         <Button
           variant="outline"
@@ -153,7 +155,7 @@ export function DataTable({
           disabled={!table.getCanNextPage()}
           className={'border-none p-2 bg-goldButton rounded-md cursor-pointer hover:bg-goldButtonHover text-textGreen font-semibold font-inter px-6 py-3'}
         >
-          Next
+          {t("next")}
         </Button>
       </div>
       </>

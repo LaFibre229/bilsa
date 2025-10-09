@@ -1,19 +1,23 @@
-import React from 'react'
+'use client'
+import React, { use } from 'react'
 import {FaCheck} from 'react-icons/fa6'
 import { GoDash } from "react-icons/go";
-const steps = [
-  { id: 1, title: "Personal Data" },
-  { id: 2, title: "Registration adress" },
-  { id: 3, title: "Employment relationship" },
-  { id: 4, title: "Contact details" },
-  {id: 5 , title : "Security"}
-]
+import { useTranslations } from 'next-intl';
 
 
 const AsideProgressbar = ({currentStep}) => {
+const t = useTranslations("asideProgress.labels")
+const steps = [
+  { id: 1, title: t('personal') },
+  { id: 2, title: t('address') },
+  { id: 3, title: t("employment") },
+  { id: 4, title: t("contact")},
+  {id: 5 , title : t("security")}
+]
+
   return (
     <aside className='hidden pt-10 md:flex flex-col space-y-10 px-4'>
-         <h2 className='text-textGreen font-bold text-xl'>Your next steps</h2>
+         <h2 className='text-textGreen font-bold text-xl'>{t("title")}</h2>
           <ul className="space-y-8">
         {steps.map((step) => (
           <li key={step.id} className="flex items-center gap-2">

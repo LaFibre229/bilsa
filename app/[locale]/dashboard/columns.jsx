@@ -20,10 +20,13 @@ import {
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu"
 
+import {useTranslations} from 'next-intl'
+
+
 import { Badge } from "@/components/ui/badge"
 // This type is used to define the shape of our data.
 // You can use a Zod schema here if you want.
-
+ 
 
 export const columns = [
     
@@ -75,7 +78,7 @@ export const columns = [
   {
     accessorKey: "amount",
      header: ()=>(<div className="text-gray-500">Amount</div>),
-     cell: ({ row }) => (
+     cell: ({ row }) => (  
       <Badge variant="outline" className="text-muted-foreground px-1.5">
         {row.original.type === "transfer" ? (
           <IconMinus color="red"/>
@@ -85,7 +88,7 @@ export const columns = [
         )}
         {row.original.amount.toFixed(2)}
       </Badge>
-    ),
+     ),
        
      
   },
@@ -94,6 +97,7 @@ export const columns = [
     accessorKey: "status",
     header: ()=>(<div className="text-gray-500">Status</div>),
    cell: ({ row }) => (
+    
       <Badge variant="outline" className="text-muted-foreground px-1.5">
         {row.original.status === "completed" ? (
           <IconCircleCheckFilled className="fill-green-500 dark:fill-green-400" />
@@ -103,7 +107,7 @@ export const columns = [
           
         )}
         {row.original.status === "in_process" 
-        ? ("In process") 
+        ? ("In process")
         : (row.original.status)}
       </Badge>
     ),
@@ -113,7 +117,7 @@ export const columns = [
     id: "actions",
     cell: ({ row }) => {
       const transaction = row.original
- 
+      const t = useTranslations("transaction-actions");
       return (
         <DropdownMenu>
           <DropdownMenuTrigger asChild>
@@ -127,7 +131,7 @@ export const columns = [
             <DropdownMenuItem
               onClick={() => navigator.clipboard.writeText(transaction._id)}
             >
-              Copy payment ID
+             {t("copy_payment_id")}
             </DropdownMenuItem>
            
             <DropdownMenuSeparator />
@@ -136,14 +140,14 @@ export const columns = [
             ? (
               <Link href={`/dashboard/transactions/${transaction._id}`} passHref>
                 <DropdownMenuItem>
-                    View transaction details
+                      {t("view_transaction_details")}
                 </DropdownMenuItem>
             </Link>
             ) 
             : (
                <Link href={`/dashboard/transactions/${transaction._id}/progression`} passHref>
                 <DropdownMenuItem>
-                    View transaction progression
+                   {t("view_transaction_progression")}
                 </DropdownMenuItem>
             </Link>
             )}

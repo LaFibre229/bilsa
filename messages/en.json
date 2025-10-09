@@ -1,0 +1,549 @@
+{
+  "Homepage": {
+    "bilsaBankingCard": {
+      "title": "Freedom to Save, Power to Choose",
+      "flexibility": {
+        "title": "Your needs change — so do we: Always remain flexible",
+        "description": "From adjusting your limits to managing your accounts in real time, our platform is built to adapt. Enjoy full control, seamless customization, and a banking experience that moves with you — not the other way around."
+      },
+      "saving": {
+        "title": "Saving — Smart tools to grow your money",
+        "description": "Set your goals, automate your savings, and watch your progress in real time. Whether you're building an emergency fund or planning something big, we make saving effortless — and rewarding."
+      },
+      "freedom": {
+        "title": "Your bank for free use — Bank the way you want",
+        "description": "No branches, no queues, no limits. Enjoy complete freedom to manage your money anytime, from anywhere. Our digital-first approach gives you control — without the constraints of traditional banking."
+      },
+      "bankingApp": {
+        "title": "Banking App — Your bank always in your pocket",
+        "description": "Track your spending, send money, and stay in control — anytime, anywhere. Our intuitive mobile app puts powerful banking features at your fingertips, designed for speed, security, and simplicity."
+      },
+      "cta": "Open free bank account"
+    },
+    "elementor": {
+      "words": ["Us", "Freedom", "Safety", "Ease"],
+      "title": "Choose {word}",
+      "subtitle": "Success Stories Begin here",
+      "cta": "Open free bank account"
+    },
+     "secondCard": {
+      "title": "A new world of possibilities",
+      "cards": [
+        {
+          "heading": "Secure cards",
+          "body": "Cards with independent balances to distribute as you wish."
+        },
+        {
+          "heading": "Banking made effortless.",
+          "body": "From opening your account to managing your daily finances, every step is designed to be simple. No jargon, no complexity"
+        },
+        {
+          "heading": "Banking with zero limitations​",
+          "body": "No hidden fees, no paperwork, no waiting. Open your account, manage your finances, and access all features"
+        }
+      ]
+    },
+
+    
+"lastCard": {
+  "noPaperwork": "No paperwork",
+  "accountIn5Minutes": "Your account in 5 minutes",
+  "registerBrowser": "Register from your browser",
+  "createKey": "Create a key to protect your payments and movements.",
+  "verifyIdentity": "Verify your identity in a few simple steps",
+  "readyCard": "Ready, you already have your first free Bilsa ready to go.",
+  "openAccount": "Open free bank account"
+},
+"securityCard": {
+  "title": "Ensuring your security is our highest priority",
+  "description": "We leverage cutting-edge technology to protect your data, and your deposits are guaranteed up to €100,000 through the Deposit Guarantee Scheme"
+},
+
+"accordionCard": {
+  "items": [
+    {
+      "index": "item-1",
+      "title": "Is Bilsa a bank?",
+      "body": "Bilsa is one of the few 100% mobile banks to hold a German banking license issued by BaFin, the German Financial Supervisory Authority. This means that all your deposits in your bank accounts are protected up to €100,000 by the German Deposit Protection Scheme. We currently operate in 9 markets and have over 5 million customers."
+    },
+    {
+      "index": "item-2",
+      "title": "Is Bilsa secure?",
+      "body": "Bilsa has obtained a German banking license issued by BaFin. According to current regulations, each client's funds are protected up to €100,000 by the German Deposit Protection Scheme. The security of our clients' online payments is always guaranteed, as we make it a top priority."
+    },
+    {
+      "index": "item-3",
+      "title": "How does Bilsa protect my money and personal data?",
+      "body": "As a bank, Bilsa is supervised by the Federal Financial Supervisory Authority (BaFin). Our customers' funds are guaranteed up to €100,000 by the German Deposit Protection Scheme. In addition, the Bilsa app has numerous features to ensure the security of its users' bank accounts and data."
+    },
+    {
+      "index": "item-4",
+      "title": "How to open a Bilsa account?",
+      "body": "To open a Bilsa account, you must be over 18 years old. You must also have a compatible smartphone. You will be asked to provide other supporting documents, if necessary, to open a Bilsa account."
+    },
+    {
+      "index": "item-5",
+      "title": "What documents do I need to open a bank account?",
+      "body": "No complicated paperwork is required to open a bank account with Bilsa. All you need is a smartphone. Other supporting documents may also be required."
+    },
+    {
+      "index": "item-6",
+      "title": "How long does it take to open a bank account with Bilsa?",
+      "body": "You can open your Bilsa mobile account online in just a few minutes via the Bilsa website and without any paperwork. The best part: once your Bilsa bank account is active, you can start using it immediately. This means you can fund your account as soon as it's open, without waiting for your physical card to arrive."
+    },
+    {
+      "index": "item-7",
+      "title": "How to get an IBAN with my Bilsa account",
+      "body": "All Bilsa customers who open a bank account automatically receive a RIB with a German IBAN, i.e. an IBAN beginning with the letters 'DE'."
+    },
+    {
+      "index": "item-8",
+      "title": "Where can I find my IBAN and account number?",
+      "body": "To view your BILSA IBAN, go to the ' Account' section by tapping the icon in the lower right corner of the home screen. From there, you can easily copy and paste your IBAN and share it."
+    }
+  ]
+}
+
+
+},
+
+ "header": {
+    "logo": "BILSA",
+    "nav": {
+      "plans": "Plans",
+      "about": "About",
+      "contact": "Contact Us"
+    },
+    "buttons": {
+      "login": "Log in",
+      "register": "Open free bank account"
+    }
+  },
+
+   "footer": {
+    "brand": "BILSA",
+    "slogan": "The bank that fits in your pocket",
+    "legal": {
+      "title": "Legal",
+      "links": [
+        {"title": "Terms and conditions", "url": "/#"},
+        {"title": "Legal Notices", "url": "/#"},
+        {"title": "Consent setting", "url": "/#"},
+        {"title": "Group", "url": "/#"}
+      ]
+    },
+    "contact": {
+      "title": "Contact",
+      "links": [
+        {"title": "Email", "url": "/#"},
+        {"title": "WhatsApp", "url": "/#"}
+      ]
+    },
+    "description": "BILSA is a simplify join stock company registered in the Nice Trade and Companies Register with a capital of 4.450.000 euros. More than a bank, it's a digital experience: open an account in minutes, manage it in real time, enjoy reduced fees, and enjoy total freedom from your smartphone. Transparent, fast, and 100% connected, it gives you control over your finances like no other."
+  },
+
+  "Planspage" :{
+      "pageTitle": "Our plans",
+  "pageSubtitle": "Discover all that Billsa has to offer you",
+  "toggleMonthly": "Monthly",
+  "toggleYearly": "Yearly",
+  "plans": {
+    "free": {
+      "title": "Free",
+      "priceMonthly": "0,00 € / monthly",
+      "priceYearly": "0,00 € / yearly",
+      "details": [
+        "Cards with shared balance",
+        "Maximum balance: €2,500",
+        "Limit on purchases: €1,500",
+        "Top Ups: 500/day",
+        "POS Top Ups: 2/day",
+        "1 % commission per transfer",
+        "SEPA Instant Transfers at 1",
+        "ATM withdrawals: 1/day"
+      ]
+    },
+    "move": {
+      "title": "Move",
+      "priceMonthly": "0,00 € / monthly",
+      "priceYearly": "0,00 € / yearly",
+      "details": [
+        "2 Cards with shared balance and 3 with independent balance",
+        "Maximum balance: €15,000",
+        "Limit on purchases: €5,000",
+        "Top Ups: €1,500/day",
+        "POS Top Ups: 3/day",
+        "Transfer limit €1,200/day",
+        "1 FREE SEPA Instant transfer",
+        "ATM withdrawals: 2/day",
+        "Cashback: up to 15% in participating stores"
+      ]
+    },
+    "pro": {
+      "title": "Pro",
+      "priceMonthly": "9,99 € / monthly",
+      "priceYearly": "9,99 € / yearly",
+      "details": [
+        "2 Cards with shared balance and 6 with independent balance",
+        "Maximum balance: UNLIMITED",
+        "Limit on purchases: €15,000",
+        "Top Ups: €4,000/day",
+        "POS Top Ups: 4/day",
+        "Transfers UNLIMITED",
+        "2 FREE SEPA Instant transfers",
+        "Transfers NO COMMISSIONS",
+        "ATM withdrawals: 4/day",
+        "Cashback: up to 15% in participating stores"
+      ]
+    }
+  },
+  "faqTitle": "Some Frequent Questions",
+  "faq": [
+  {
+    "index": "pitem-1",
+    "title": "Is there a cost for the card?",
+    "body": "The maximum cost of the plastic card is €20. The maximum cost of the virtual card is €5."
+  },
+  {
+    "index": "pitem-2",
+    "title": "Are there any transfer fees?",
+    "body": "Transfers to another entity that is not the same holder or Pecunpay will be charged €1.50."
+  },
+  {
+    "index": "pitem-3",
+    "title": "Is there a commission on payments?",
+    "body": "Purchases in Spain and in international stores within the euro zone will incur no commission. In international establishments outside the euro zone, the commission is 1.75% on the exchange rate. In the rest of the world, it is 2%."
+  }
+]
+
+  },
+
+  "contacts": {
+    "back": "back",
+    "title": "24 hours for you",
+    "email": "Email",
+    "whatsapp": "WhatsApp"
+  },
+
+   "login": {
+    "title": "Login",
+    "email": "Email",
+    "password": "Password",
+    "forgot": "Forgot password ?",
+    "submit": "Login",
+    "loading": "Loading...",
+    "noAccount": "Don't have an account ?",
+    "signup": "Sign up",
+    "authenticating": "Authenticating",
+    "success": "Successfully connected",
+    "error": "Login failed ❌",
+    "unknownError": "Something went wrong ❌"
+  },
+
+  "nav-user" :{
+    "logoutLoading": "Logging out...",
+  "logoutError": "Error while logging out",
+  "account": "Account",
+  "logout": "Log out"
+  },
+
+   "nav-main": {
+    "quickCreate": "Quick Create",
+    "transfer": "Transfer",
+    "home": "Home"
+  },
+
+   "section-cards": {
+    "helloUser": "Hello {name} 👋",
+    "latestTransactions": "The latest transactions related to your account will appear below. Check the transaction page for an overview.",
+    "balance": "Balance",
+    "iban": "IBAN",
+    "accountNumber": "Account Number"
+  },
+
+   "create-transaction": {
+    "title": "Transfer Funds Seamlessly with Bilsa Bank",
+    "subtitle": "Send money to friends, family, or colleagues in just a few taps — fast, secure, and hassle-free.",
+    "type": "Type",
+    "deposit": "Deposit",
+    "transfer": "Transfer",
+    "amount": "Amount",
+    "motif": "Motif",
+    "status": "Status",
+    "in_process": "In process",
+    "completed": "Completed",
+    "failed": "Failed",
+    "sender_infos": "Sender's Infos",
+    "recipient_infos": "Recipient Infos",
+    "name": "Name",
+    "iban": "IBAN",
+    "sending": "Sending...",
+    "send": "Send",
+    "success": {
+      "created": "Transaction created successfully."
+    },
+
+     "insufficient_funds": "Insufficient funds in your account.",
+    "verification_required": "Your account must be verified to perform this action.",
+    "server": "A server error occurred. Please try again later.",
+    "unknown": "An unknown error occurred. Please try again."
+
+  },
+
+  "errors": {
+    "nameRequired": "Name is required",
+    "nameTooLong": "Name is too long",
+    "ibanRequired": "IBAN is required",
+    "ibanInvalid": "Invalid IBAN",
+    "noAccountId": "No accountId",
+    "amountInvalid": "Amount must be a valid number",
+    "senderRequired": "Sender infos are required for a deposit",
+    "receiverRequired": "Receiver Infos are required for a transfer"
+   
+  },
+
+  "transaction-actions": {
+  "copy_payment_id": "Copy payment ID",
+  "view_transaction_details": "View transaction details",
+  "view_transaction_progression": "View transaction progression"
+},
+
+"history-labels": {
+  "in_process": "In process",
+  "status": "Status",
+  "amount": "Amount"
+},
+
+"transaction-progress" : {
+  "back" :"back",
+  "transaction_amount" : "Transaction of :",
+  "to" : "To :",
+  "status" :"Status :",
+  "subtiltle" : "Transaction progress",
+  "footer" : "An overview of the transaction will be available once it is completed.",
+  "dialog" : {
+    "action_needed" : "Action needed",
+    "text_part1" : " A 6-character secure code has been generated and sent to ",
+     "text_part2" : " for this step of the progression. The transaction will resume once the code is entered.",
+     "placeholder" : "Enter the code",
+     "verify" : "Verify",
+     "is_submitting" : "Verification ..."
+  }
+},
+
+"data-table" : {
+  "history" : "History",
+  "no_transaction" : "No Transaction yet ",
+  "previous" : "Previuous",
+  "next" : "Next"
+},
+
+"account" : {
+  "back" : "back",
+  "personal_infos" : {
+    "subtitle" : "About you",
+    "birth_place" : "at",
+    "homeTown" : "From",
+    "country" : "Lives at "
+  },
+
+  "account_infos" : {
+    "subtitle" : "Account Details",
+    "account_number" : "Account Number :",
+    "currency" : "Currency :",
+    "status" :"Status :",
+    "createdAt" : "Created at :"
+  },
+
+  "validation" :{
+    "phrase" : "You cannot yet carry out any transactions. Proceed to the validation of your account and take full advantage of the services we offer.",
+    "verify" : "Verify"
+  }
+},
+
+"site-header" : {
+  "slogan" :"The bank that fits in your pocket"
+},
+
+"accountCreation": {
+    "step1": {
+      "heading": "Nice that you are there. In a few steps to your Bilsa Account",
+      "subheading": "To open your account, please let us know the personal data from your identification document.",
+      "question": "How can we address you?",
+      "whyAsk": "Why do we ask it",
+      "address": "Address",
+      "addressOptions": {
+        "woman": "Woman",
+        "lord": "Lord",
+        "other": "Other"
+      },
+      "please_select" : "Please select",
+      "titleLabel": "Title (optional)",
+      "firstName": "First name(s)",
+      "surname": "Surname",
+      "birthname": "Birth name (optional)",
+      "birthdate": "Date of Birth",
+      "birthdateFormat": "(DD.MM.YYYY)",
+      "birthplace": "Birth Place",
+      "birthcountry": "Birth country",
+      "nationality": "Nationality",
+      "continue": "Continue"
+    },
+    "step2": {
+      "heading": "What is your registration address ",
+      "whyAsk": "Why do we ask it",
+      "postalCode": "Postal Code",
+      "street": "Street",
+      "houseNumber": "House number (optional)",
+      "residenceSince": "Residential since (month.year)",
+      "residenceSinceFormat": "(MM.YYYY)",
+      "back": "Back",
+      "continue": "Continue"
+    },
+
+     "step3": {
+    "heading": "What is your current Employment ?",
+    "question": "How can we address you?",
+    "whyAsk": "Why do we ask it",
+    "profession": "Profession",
+    "please_specify": "Please specify",
+    "back": "Back",
+    "continue": "Continue",
+    "please_select" :"Please select"
+  },
+  "step4": {
+    "heading": "How do we contact you?",
+    "description": "This information is voluntary. However, to complete your account online, you must fill in these fields. If you do not wish to provide this information, you can open a current account in a Bilsabank branch.",
+    "whyAsk": "Why do we ask it",
+    "phone": "Phone number",
+    "email": "Email",
+    "back": "Back",
+    "continue": "Continue"
+  },
+  "step5": {
+    "heading": "Create a secure space adapted to your needs",
+    "whyAsk": "Why do we ask it",
+    "password": "Password",
+    "password_help": "Please choose a strong password containing at least 8 characters, with letters, numbers and symbols.",
+    "back": "Back",
+    "submit": "Submit"
+  },
+
+  "steps": {
+    "step": "Step {current} of {total} - {label}",
+    "labels": {
+      "personal": "Personal Data",
+      "address": "Registration address",
+      "employment": "Employment relationship",
+      "contact": "Contact details",
+      "security": "Security"
+    }
+  },
+
+
+  "errors" :{
+    "step1" : {
+       "adress": "Please select how we should address you",
+      "firstname": "First name is required",
+      "surname": "Surname is required",
+      "birthdate": "Date of birth is required",
+      "birthdate_format": "Date must be in format DD.MM.YYYY",
+      "birthplace": "Birth place is required",
+      "birthcountry": "Birth country is required",
+      "nationality": "Nationality is required"
+
+    },
+    "step2" : {
+       "postalcode_min": "Postal code must be at least 3 characters",
+      "postalcode_max": "Postal code must be at most 10 characters",
+      "street": "Street is required",
+      "dateresidence": "Format must be MM.YYYY"
+
+    },
+    "step3" : {
+      "profession": "Profession is required",
+      "otherProfession": "Please specify your profession"
+
+    },
+    "step4" : {
+ "phone": "Phone number is required",
+      "phone_format": "Invalid phone number format",
+      "email": "Email is required",
+      "email_format": "Invalid email format"
+    },
+    "step5" : {
+       "password_min": "Password must contain at least 8 characters.",
+      "password_lower": "Password must contain at least one lowercase letter.",
+      "password_upper": "Password must contain at least one capital letter.",
+      "password_digit": "The password must contain at least one number."
+
+    }
+  }
+  },
+
+  "asideProgress" : {
+    "labels" : {
+      "personal": "Personal Data",
+      "address": "Registration address",
+      "employment": "Employment relationship",
+      "contact": "Contact details",
+      "security": "Security",
+       "title": "Your next steps"
+
+    }
+  },
+
+  "verifyAccount": {
+  "step1": {
+    "heading": "Hi {firstname}👋",
+    "description": "Just one more step and you'll be able to enjoy full access to your Bilsa account. Complete these quick steps and unlock all our banking services right away.",
+    "next": "Next"
+  },
+  "step2": {
+    "heading": "Choose a Plan",
+    "description": "Choose the plan that best fits your needs and start enjoying a banking experience tailored to your lifestyle.",
+    "free": "Bilsa Free",
+    "move": "Bilsa Move",
+    "pro": "Bilsa Pro",
+    "learnMore": "Learn more about our plans on",
+    "planSection": "Plan section",
+    "back": "Back",
+    "next": "Next"
+  },
+
+  "step3" :{
+    
+  "heading": "Confirm your email address",
+  "description": "We'll send a code to your email to verify it. This email must match the one you provided during registration.",
+  "email": "Email",
+  "send": "Send code",
+  "back": "Back"
+
+
+  },
+
+  "step4" :{
+     "heading": "Device verification",
+  "email": "Email",
+  "codeSent": "We just sent your authentication code via email to",
+  "verify": "Verify",
+  "back": "Back"
+  }
+},
+
+"formheader": {
+    "title": "Do you really want to finish your order?",
+    "paragraph1": "Please note that previously provided information is no longer available. Click on the button \"Ok\" to actually finish the job. After clicking on the \"Back\" link above, please return to your details.",
+    "subtitle": "Do you have questions?",
+    "paragraph2": "Join us. We are there for you every 24 hours every day at bilsabank.com",
+    "back": "Back",
+    "no": "No, continue order",
+    "yes": "Yes, finish order"
+  }
+
+
+
+
+
+
+}

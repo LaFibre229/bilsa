@@ -2,9 +2,11 @@ import { Roboto, Playfair_Display, Inter,Montserrat, Bokor} from "next/font/goog
 import "./globals.css";
 import { Toaster } from "@/components/ui/sonner";
 import ClientLayout from "@/components/ClientLayout";
-
-
-
+import {NextIntlClientProvider, hasLocale} from 'next-intl';
+import {notFound} from 'next/navigation';
+import {routing} from '@/i18n/routing';
+ import { setRequestLocale } from "next-intl/server";
+import 'flag-icons/css/flag-icons.min.css';
 // Roboto pour petits textes
 const roboto = Roboto({
   subsets: ["latin"],
@@ -45,16 +47,34 @@ export const metadata = {
   description: "Your online banking app",
 };
 
-export default function RootLayout({ children }) {
+
+export function generateStaticParams() {
+  return routing.locales.map((locale) => ({ locale }));
+}
+
+
+
+export default async function LocaleLayout({ children, params }) {
+  const { locale } = await params;
+
+  if (!hasLocale(routing.locales, locale)) {
+    notFound();
+  }
+
+  // Enable static rendering
+  setRequestLocale(locale);
+
+  const messages = (await import(`@/messages/${locale}.json`)).default;
+
+  
+
   return (
-    <html lang="en">
-      <body
-        className={`${roboto.variable} ${playfair.variable} ${inter.variable} ${bokor.variable} ${montserrat.variable} antialiased`}
-      >
-        <ClientLayout>
-          {children}
-        </ClientLayout>
-        <Toaster position = "top-center"/>
+    <html lang={locale}>
+      <body className={`${roboto.variable} ${playfair.variable} ${inter.variable} ${bokor.variable} ${montserrat.variable} antialiased`}>
+        <NextIntlClientProvider locale={locale} messages={messages}>
+          <ClientLayout>{children}</ClientLayout>
+          <Toaster position="top-center" />
+        </NextIntlClientProvider>
       </body>
     </html>
   );

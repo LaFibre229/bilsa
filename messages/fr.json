@@ -1,0 +1,537 @@
+{
+  "Homepage": {
+    "bilsaBankingCard": {
+      "title": "Liberté d'épargner, pouvoir de choisir",
+      "flexibility": {
+        "title": "Vos besoins évoluent — nous aussi : toujours flexibles",
+        "description": "De l'ajustement de vos plafonds à la gestion de vos comptes en temps réel, notre plateforme s'adapte à vous. Profitez d'un contrôle total, d'une personnalisation fluide et d'une expérience bancaire qui s'ajuste à votre rythme — et non l'inverse."
+      },
+      "saving": {
+        "title": "Épargne — Des outils intelligents pour faire grandir votre argent",
+        "description": "Fixez vos objectifs, automatisez vos économies et suivez vos progrès en temps réel. Que vous constituiez une épargne de précaution ou prépariez un grand projet, nous rendons l'épargne simple — et gratifiante."
+      },
+      "freedom": {
+        "title": "Votre banque en libre accès — Gérez comme vous voulez",
+        "description": "Pas d'agences, pas de files d'attente, pas de limites. Profitez d'une liberté totale pour gérer votre argent à tout moment et de n'importe où. Notre approche 100 % digitale vous donne le contrôle — sans les contraintes de la banque traditionnelle."
+      },
+      "bankingApp": {
+        "title": "Application bancaire — Votre banque toujours dans votre poche",
+        "description": "Suivez vos dépenses, envoyez de l'argent et gardez le contrôle — à tout moment, où que vous soyez. Notre application intuitive met des fonctionnalités bancaires puissantes à portée de main, conçues pour la rapidité, la sécurité et la simplicité."
+      },
+      "cta": "Ouvrir un compte bancaire gratuit"
+    },
+     "elementor": {
+      "words": ["Nous", "Liberté", "Sécurité", "Simplicité"],
+      "title": "Choisissez {word}",
+      "subtitle": "Les histoires de succès commencent ici",
+      "cta": "Ouvrir un compte bancaire gratuit"
+    },
+     "secondCard": {
+      "title": "Un nouveau monde de possibilités",
+      "cards": [
+        {
+          "heading": "Cartes sécurisées",
+          "body": "Des cartes avec des soldes indépendants à répartir comme vous le souhaitez."
+        },
+        {
+          "heading": "Une banque sans effort.",
+          "body": "De l'ouverture de votre compte à la gestion de vos finances quotidiennes, chaque étape est conçue pour être simple. Pas de jargon, pas de complexité."
+        },
+        {
+          "heading": "Une banque sans limites​",
+          "body": "Pas de frais cachés, pas de paperasse, pas d'attente. Ouvrez votre compte, gérez vos finances et accédez à toutes les fonctionnalités."
+        }
+      ]
+    },
+
+    "lastCard": {
+  "noPaperwork": "Pas de paperasse",
+  "accountIn5Minutes": "Votre compte en 5 minutes",
+  "registerBrowser": "Inscrivez-vous depuis votre navigateur",
+  "createKey": "Créez une clé pour protéger vos paiements et mouvements.",
+  "verifyIdentity": "Vérifiez votre identité en quelques étapes simples",
+  "readyCard": "Prêt, vous avez déjà votre première Bilsa gratuite prête à l'emploi.",
+  "openAccount": "Ouvrir un compte gratuit"
+},
+
+"securityCard": {
+  "title": "Assurer votre sécurité est notre priorité absolue",
+  "description": "Nous utilisons des technologies de pointe pour protéger vos données, et vos dépôts sont garantis jusqu'à 100 000 € via le Fonds de Garantie des Dépôts"
+}, 
+"accordionCard": {
+  "items": [
+    {
+      "index": "item-1",
+      "title": "Bilsa est-elle une banque ?",
+      "body": "Bilsa est l'une des rares banques 100 % mobiles à détenir une licence bancaire allemande délivrée par la BaFin, l'autorité fédérale allemande de supervision financière. Cela signifie que tous vos dépôts sur vos comptes bancaires sont protégés jusqu'à 100 000 € par le Fonds de Garantie des Dépôts. Nous opérons actuellement sur 9 marchés et comptons plus de 5 millions de clients."
+    },
+    {
+      "index": "item-2",
+      "title": "Bilsa est-elle sécurisée ?",
+      "body": "Bilsa a obtenu une licence bancaire allemande délivrée par la BaFin. Selon la réglementation actuelle, les fonds de chaque client sont protégés jusqu'à 100 000 € par le Fonds de Garantie des Dépôts. La sécurité des paiements en ligne de nos clients est toujours garantie, car c'est notre priorité absolue."
+    },
+    {
+      "index": "item-3",
+      "title": "Comment Bilsa protège-t-elle mon argent et mes données personnelles ?",
+      "body": "En tant que banque, Bilsa est supervisée par l'Autorité fédérale de supervision financière (BaFin). Les fonds de nos clients sont garantis jusqu'à 100 000 € par le Fonds de Garantie des Dépôts. De plus, l'application Bilsa possède de nombreuses fonctionnalités pour assurer la sécurité des comptes bancaires et des données de ses utilisateurs."
+    },
+    {
+      "index": "item-4",
+      "title": "Comment ouvrir un compte Bilsa ?",
+      "body": "Pour ouvrir un compte Bilsa, vous devez avoir plus de 18 ans et disposer d'un smartphone compatible. Vous devrez fournir d'autres documents justificatifs si nécessaire pour ouvrir un compte Bilsa."
+    },
+    {
+      "index": "item-5",
+      "title": "Quels documents sont nécessaires pour ouvrir un compte bancaire ?",
+      "body": "Aucune paperasse compliquée n'est requise pour ouvrir un compte bancaire avec Bilsa. Tout ce dont vous avez besoin est un smartphone. D'autres documents justificatifs peuvent également être demandés."
+    },
+    {
+      "index": "item-6",
+      "title": "Combien de temps faut-il pour ouvrir un compte Bilsa ?",
+      "body": "Vous pouvez ouvrir votre compte mobile Bilsa en ligne en quelques minutes via le site Bilsa et sans aucune paperasse. Le meilleur : une fois votre compte bancaire Bilsa actif, vous pouvez commencer à l'utiliser immédiatement. Vous pouvez donc approvisionner votre compte dès son ouverture, sans attendre votre carte physique."
+    },
+    {
+      "index": "item-7",
+      "title": "Comment obtenir un IBAN avec mon compte Bilsa ?",
+      "body": "Tous les clients Bilsa qui ouvrent un compte reçoivent automatiquement un RIB avec un IBAN allemand, c’est-à-dire un IBAN commençant par les lettres 'DE'."
+    },
+    {
+      "index": "item-8",
+      "title": "Où puis-je trouver mon IBAN et mon numéro de compte ?",
+      "body": "Pour voir votre IBAN BILSA, allez dans la section 'Compte' en appuyant sur l'icône en bas à droite de l'écran d'accueil. Vous pouvez ensuite facilement copier et partager votre IBAN."
+    }
+  ]
+}
+  },
+
+   "header": {
+    "logo": "BILSA",
+    "nav": {
+      "plans": "Forfaits",
+      "about": "À propos",
+      "contact": "Contactez-nous"
+    },
+    "buttons": {
+      "login": "Connexion",
+      "register": "Ouvrir un compte gratuit"
+    }
+  },
+  "footer": {
+    "brand": "BILSA",
+    "slogan": "La banque qui tient dans votre poche",
+    "legal": {
+      "title": "Légal",
+      "links": [
+        {"title": "Conditions générales", "url": "/#"},
+        {"title": "Mentions légales", "url": "/#"},
+        {"title": "Paramètres de consentement", "url": "/#"},
+        {"title": "Groupe", "url": "/#"}
+      ]
+    },
+    "contact": {
+      "title": "Contact",
+      "links": [
+        {"title": "Email", "url": "/#"},
+        {"title": "WhatsApp", "url": "/#"}
+      ]
+    },
+    "description": "BILSA est une société anonyme simplifiée enregistrée au Registre du commerce et des sociétés de Nice avec un capital de 4.450.000 euros. Plus qu'une banque, c'est une expérience digitale : ouvrez un compte en quelques minutes, gérez-le en temps réel, profitez de frais réduits et de totale liberté depuis votre smartphone. Transparent, rapide et 100 % connecté, il vous donne le contrôle de vos finances comme aucune autre."
+  },
+
+  "Planspage" : { 
+
+   "pageTitle": "Nos offres",
+  "pageSubtitle": "Découvrez tout ce que Billsa peut vous offrir",
+  "toggleMonthly": "Mensuel",
+  "toggleYearly": "Annuel",
+  "plans": {
+    "free": {
+      "title": "Gratuit",
+      "priceMonthly": "0,00 € / mois",
+      "priceYearly": "0,00 € / an",
+      "details": [
+        "Cartes avec solde partagé",
+        "Solde maximum : 2 500 €",
+        "Limite d'achats : 1 500 €",
+        "Recharges : 500/jour",
+        "Recharges POS : 2/jour",
+        "1 % de commission par transfert",
+        "Transferts SEPA instantanés à 1",
+        "Retraits DAB : 1/jour"
+      ]
+    },
+    "move": {
+      "title": "Move",
+      "priceMonthly": "0,00 € / mois",
+      "priceYearly": "0,00 € / an",
+      "details": [
+        "2 cartes avec solde partagé et 3 avec solde indépendant",
+        "Solde maximum : 15 000 €",
+        "Limite d'achats : 5 000 €",
+        "Recharges : 1 500 €/jour",
+        "Recharges POS : 3/jour",
+        "Limite de transfert : 1 200 €/jour",
+        "1 transfert SEPA instantané gratuit",
+        "Retraits DAB : 2/jour",
+        "Cashback : jusqu'à 15 % dans les magasins participants"
+      ]
+    },
+    "pro": {
+      "title": "Pro",
+      "priceMonthly": "9,99 € / mois",
+      "priceYearly": "9,99 € / an",
+      "details": [
+        "2 cartes avec solde partagé et 6 avec solde indépendant",
+        "Solde maximum : ILLIMITÉ",
+        "Limite d'achats : 15 000 €",
+        "Recharges : 4 000 €/jour",
+        "Recharges POS : 4/jour",
+        "Transferts ILLIMITÉS",
+        "2 transferts SEPA instantanés gratuits",
+        "Transferts SANS COMMISSIONS",
+        "Retraits DAB : 4/jour",
+        "Cashback : jusqu'à 15 % dans les magasins participants"
+      ]
+    }
+  },
+  "faqTitle": "Questions fréquentes",
+ "faq": [
+  {
+    "index": "pitem-1",
+    "title": "La carte a‑t‑elle un coût ?",
+    "body": "Le coût maximum de la carte plastique est de 20 €. Le coût maximum de la carte virtuelle est de 5 €."
+  },
+  {
+    "index": "pitem-2",
+    "title": "Y a‑t‑il des frais pour les transferts ?",
+    "body": "Les transferts vers une autre entité qui n’est pas le même titulaire ou Pecunpay seront facturés 1,50 €."
+  },
+  {
+    "index": "pitem-3",
+    "title": "Y a‑t‑il une commission sur les paiements ?",
+    "body": "Les achats en Espagne et dans les magasins internationaux de la zone euro ne subiront aucune commission. Dans les établissements internationaux hors zone euro, la commission est de 1,75 % sur le taux de change. Dans le reste du monde, elle est de 2 %."
+  }
+]
+
+},
+ "contacts": {
+    "back": "retour",
+    "title": "24 heures pour vous",
+    "email": "Email",
+    "whatsapp": "WhatsApp"
+  },
+
+  "login": {
+    "title": "Connexion",
+    "email": "Email",
+    "password": "Mot de passe",
+    "forgot": "Mot de passe oublié ?",
+    "submit": "Se connecter",
+    "loading": "Chargement...",
+    "noAccount": "Pas de compte ?",
+    "signup": "S'inscrire",
+    "authenticating": "Authentification",
+    "success": "Connexion réussie",
+    "error": "Échec de la connexion ❌",
+    "unknownError": "Une erreur est survenue ❌"
+  },
+
+  "nav-user" :{
+     "logoutLoading": "Déconnexion ...",
+  "logoutError": "Erreur lors de la déconnexion",
+  "account": "Compte",
+  "logout": "Se déconnecter"
+  },
+   "nav-main": {
+    "quickCreate": "Création rapide",
+    "transfer": "Transférer",
+    "home": "Accueil"
+  },
+
+  "section-cards": {
+    "helloUser": "Bonjour {name} 👋",
+    "latestTransactions": "Les dernières transactions liées à votre compte apparaîtront ci-dessous. Consultez la page des transactions pour un aperçu.",
+    "balance": "Solde",
+    "iban": "IBAN",
+    "accountNumber": "Numéro de compte"
+  },
+
+  "create-transaction": {
+    "title": "Transférer des fonds facilement avec Bilsa Bank",
+    "subtitle": "Envoyez de l’argent à vos amis, votre famille ou vos collègues en quelques clics — rapide, sécurisé et sans tracas.",
+    "type": "Type",
+    "deposit": "Dépôt",
+    "transfer": "Transfer",
+    "amount": "Montant",
+    "motif": "Motif",
+    "status": "Statut",
+    "in_process": "En cours",
+    "completed": "Terminé",
+    "failed": "Échoué",
+    "sender_infos": "Infos expéditeur",
+    "recipient_infos": "Infos destinataire",
+    "name": "Nom",
+    "iban": "IBAN",
+    "sending": "Envoi…",
+    "send": "Envoyer",
+    "success": {
+      "created": "Transaction créée avec succès."
+    },
+
+     "insufficient_funds": "Fonds insuffisants sur votre compte.",
+    "verification_required": "Votre compte doit être vérifié pour effectuer cette action.",
+    "server": "Une erreur serveur est survenue. Veuillez réessayer plus tard.",
+    "unknown": "Une erreur inconnue est survenue. Veuillez réessayer."
+
+    
+   
+  },
+
+  "errors": {
+    "nameRequired": "Le nom est requis",
+    "nameTooLong": "Le nom est trop long",
+    "ibanRequired": "L'IBAN est requis",
+    "ibanInvalid": "IBAN invalide",
+    "noAccountId": "Aucun identifiant de compte fourni",
+    "amountInvalid": "Le montant doit être un nombre valide",
+    "senderRequired": "Les informations de l'expéditeur sont requises pour un dépôt",
+    "receiverRequired": "Les informations du destinataire sont requises pour un virement"
+   
+  },
+
+  "transaction-actions": {
+  "copy_payment_id": "Copier l'ID du paiement",
+  "view_transaction_details": "Voir les détails de la transaction",
+  "view_transaction_progression": "Voir la progression de la transaction"
+},
+
+"history-labels" : {
+  "in_process" :"En cours",
+  "status" :"Statut",
+  "amount" :"Montant"
+
+},
+
+"transaction-progress": {
+  "back": "Retour",
+  "transaction_amount": "Transaction de :",
+  "to": "vers :",
+  "status": "Statut :",
+  "subtiltle": "Progression de la transaction :",
+  "footer": "Un aperçu de la transaction sera disponible une fois qu'elle sera terminée.",
+  "dialog": {
+  "action_needed": "Action requise",
+  "text_part1": "Un code de sécurité de 6 caractères a été généré et envoyé à",
+  "text_part2": "pour cette étape de la progression. La transaction reprendra une fois le code saisi.",
+  "placeholder": "Saisir le code",
+  "verify": "Vérifier",
+  "is_submitting": "Vérification en cours..."
+}
+
+},
+
+"data-table": {
+  "history": "Historique",
+  "no_transaction": "Aucune transaction pour le moment",
+  "previous": "Précédent",
+  "next": "Suivant"
+},
+
+"account": {
+  "back": "retour",
+  "personal_infos": {
+    "subtitle": "À propos de vous",
+    "birth_place": "né à",
+    "homeTown": "Originaire de",
+    "country": "Vit à "
+  },
+  "account_infos": {
+    "account_number": "Numéro de compte :",
+    "currency": "Devise :",
+    "status": "Statut :",
+    "createdAt": "Créé le :",
+    "subtitle": "Détails du compte"
+
+  },
+  "validation": {
+    "phrase": "Vous ne pouvez pas encore effectuer de transactions. Procédez à la validation de votre compte pour profiter pleinement des services que nous offrons.",
+    "verify": "Vérifier"
+  }
+},
+
+"site-header": {
+  "slogan": "La banque qui tient dans votre poche"
+},
+
+"accountCreation": {
+    "step1": {
+      "heading": "Ravi que vous soyez là. En quelques étapes vers votre compte Bilsa",
+      "subheading": "Pour ouvrir votre compte, veuillez nous indiquer les données personnelles de votre document d'identification.",
+      "question": "Comment devons-nous vous appeler ?",
+      "whyAsk": "Pourquoi le demandons‑nous",
+      "address": "Adresse",
+      "addressOptions": {
+        "woman": "Madame",
+        "lord": "Monsieur",
+        "other": "Autre"
+      },
+      "please_select": "Veuillez sélectionner",
+      "titleLabel": "Titre (optionnel)",
+      "firstName": "Prénom(s)",
+      "surname": "Nom de famille",
+      "birthname": "Nom de naissance (optionnel)",
+      "birthdate": "Date de naissance",
+      "birthdateFormat": "(JJ.MM.AAAA)",
+      "birthplace": "Lieu de naissance",
+      "birthcountry": "Pays de naissance",
+      "nationality": "Nationalité",
+      "continue": "Continuer"
+    },
+    "step2": {
+      "heading": "Quelle est votre adresse d'enregistrement ",
+      "whyAsk": "Pourquoi le demandons-nous",
+      "postalCode": "Code postal",
+      "street": "Rue",
+      "houseNumber": "Numéro (optionnel)",
+      "residenceSince": "Résidence depuis (mois.année)",
+      "residenceSinceFormat": "(MM.AAAA)",
+      "back": "Retour",
+      "continue": "Continuer"
+    },
+    "step3": {
+    "heading": "Quel est votre emploi actuel ?",
+    "question": "Comment pouvons-nous vous appeler ?",
+    "whyAsk": "Pourquoi demandons-nous cela",
+    "profession": "Profession",
+    "please_specify": "Veuillez préciser",
+    "back": "Retour",
+    "continue": "Continuer",
+    "please_select" :"Veuillez sélectionner"
+
+  },
+  "step4": {
+    "heading": "Comment pouvons-nous vous contacter ?",
+    "description": "Ces informations sont facultatives. Cependant, pour finaliser votre compte en ligne, vous devez remplir ces champs. Si vous ne souhaitez pas fournir ces informations, vous pouvez ouvrir un compte courant dans une agence Commerzbank.",
+    "whyAsk": "Pourquoi demandons-nous cela",
+    "phone": "Numéro de téléphone",
+    "email": "Email",
+    "back": "Retour",
+    "continue": "Continuer"
+  },
+
+   "step5": {
+    "heading": "Créez un espace sécurisé adapté à vos besoins",
+    "whyAsk": "Pourquoi demandons-nous cela",
+    "password": "Mot de passe",
+    "password_help": "Veuillez choisir un mot de passe fort contenant au moins 8 caractères, avec des lettres, des chiffres et des symboles.",
+    "back": "Retour",
+    "submit": "Soumettre"
+  },
+
+  "steps": {
+    "step": "Étape {current} sur {total} - {label}",
+    "labels": {
+      "personal": "Données personnelles",
+      "address": "Adresse de domiciliation",
+      "employment": "Situation professionnelle",
+      "contact": "Coordonnées",
+      "security": "Sécurité"
+    }
+  },
+
+  "errors": {
+    "step1": {
+      "adress": "Veuillez choisir comment nous devons vous appeler",
+      "firstname": "Le prénom est requis",
+      "surname": "Le nom de famille est requis",
+      "birthdate": "La date de naissance est requise",
+      "birthdate_format": "La date doit être au format JJ.MM.AAAA",
+      "birthplace": "Le lieu de naissance est requis",
+      "birthcountry": "Le pays de naissance est requis",
+      "nationality": "La nationalité est requise"
+    },
+    "step2": {
+      "postalcode_min": "Le code postal doit contenir au moins 3 caractères",
+      "postalcode_max": "Le code postal doit contenir au maximum 10 caractères",
+      "street": "La rue est requise",
+      "dateresidence": "Le format doit être MM.AAAA"
+    },
+    "step3": {
+      "profession": "La profession est requise",
+      "otherProfession": "Veuillez préciser votre profession"
+    },
+    "step4": {
+      "phone": "Le numéro de téléphone est requis",
+      "phone_format": "Format de numéro de téléphone invalide",
+      "email": "L’email est requis",
+      "email_format": "Format d’email invalide"
+    },
+    "step5": {
+      "password_min": "Le mot de passe doit contenir au moins 8 caractères.",
+      "password_lower": "Le mot de passe doit contenir au moins une lettre minuscule.",
+      "password_upper": "Le mot de passe doit contenir au moins une lettre majuscule.",
+      "password_digit": "Le mot de passe doit contenir au moins un chiffre."
+    }
+  }
+  },
+
+  "asideProgress": {
+    "labels": {
+      "personal": "Données personnelles",
+      "address": "Adresse de domiciliation",
+      "employment": "Situation professionnelle",
+      "contact": "Coordonnées",
+      "security": "Sécurité",
+      "title": "Vos prochaines étapes" 
+    }
+  },
+
+  "verifyAccount": {
+  "step1": {
+    "heading": "Bonjour {firstname}👋",
+    "description": "Encore une étape et vous aurez un accès complet à votre compte Bilsa. Complétez ces étapes rapides et profitez de tous nos services bancaires.",
+    "next": "Suivant"
+  },
+  "step2": {
+    "heading": "Choisissez un plan",
+    "description": "Choisissez le plan qui correspond le mieux à vos besoins et profitez d'une expérience bancaire adaptée à votre style de vie.",
+    "free": "Bilsa Gratuit",
+    "move": "Bilsa Move",
+    "pro": "Bilsa Pro",
+    "learnMore": "En savoir plus sur nos plans dans la",
+    "planSection": "section des plans",
+    "back": "Retour",
+    "next": "Suivant"
+  },
+  "step3": {
+    "heading": "Confirmez votre adresse e‑mail",
+    "description": "Nous enverrons un code à votre e‑mail pour le vérifier. Cet e‑mail doit correspondre à celui que vous avez fourni lors de l’inscription.",
+    "email": "E-mail",
+    "send": "Envoyer le code",
+    "back": "Retour"
+  },
+  "step4": {
+    "heading": "Vérification de l’appareil",
+    "email": "E-mail",
+    "codeSent": "Nous venons d’envoyer votre code d’authentification par e‑mail à",
+    "verify": "Vérifier",
+    "back": "Retour"
+  }
+},
+
+"formheader": {
+    "title": "Souhaitez-vous vraiment terminer votre commande ?",
+    "paragraph1": "Veuillez noter que les informations précédemment fournies ne seront plus disponibles. Cliquez sur le bouton \"Ok\" pour finaliser la commande. Après avoir cliqué sur le lien \"Retour\" ci-dessus, veuillez revenir à vos informations.",
+    "subtitle": "Vous avez des questions ?",
+    "paragraph2": "Rejoignez-nous. Nous sommes disponibles 24h/24 et 7j/7 sur bilsabank.com",
+    "back": "Retour",
+    "no": "Non, continuer la commande",
+    "yes": "Oui, terminer la commande"
+  }
+
+
+
+
+
+
+}

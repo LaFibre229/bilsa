@@ -11,14 +11,6 @@ import {
   SidebarMenuItem,
 } from "@/components/ui/sidebar"
 
-const data = {
-  user: {
-    name: "shadcn",
-    email: "m@example.com",
-    avatar: "/avatars/shadcn.jpg",
-  },
- 
-}
 
 export function AppSidebar({userDatas,...props }) {
 

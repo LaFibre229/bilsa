@@ -71,14 +71,25 @@ if (type === "deposit") {
   account.balance += parsedAmount;
   // Envoyer l'e-mail
   if(accountOwner){
-
+   const htmlContent = `
+    <div style="font-family: Arial, sans-serif; padding: 8px;">
+      <div style="max-width: 600px; margin: auto;">
+        <h2 style="color: #002E3C; font-size:22px; padding : 12px 0 12px 0;">Incoming Transfer on Your Bilsa Account</h2>
+        <p style="font-size: 16px;">
+          <strong>${accountOwner.surname}</strong>,<br />
+          <strong>${parsedAmount} ${account.currency}</strong> has been added to your Bilsa account
+          from <strong>${senderInfos.name || "your peers"}</strong> (${senderInfos.iban}).
+        </p>
+        <p style="font-size: 14px; color: #555;">Check your account for an overview.</p>
+        <p>Thanks</p>
+        <p style="font-size: 12px; color: #999;">— Bilsa Bank, the bank that fits in your pocket</p>
+      </div>
+    </div>
+  `;
      await sendEmail({
            to: accountOwner.email,
            subject: "Incoming transfer on your Bilsa Account",
-           text: `
-             ${accountOwner.surname} , ${parsedAmount} ${account.currency} has been added to your Bilsa account  from ${senderInfos.name || "your peers"}. Check your account for an overview.
-             
-           `
+           html : htmlContent
          });
     
   }
@@ -90,17 +101,41 @@ if (type === "deposit") {
       { status: 400 }
     );
   }
+
+  if (transaction.status === "failed") {
+    return NextResponse.json(
+      { message: "Transaction failed ." },
+      { status: 400 }
+    );
+  }
+
+
   account.balance -= parsedAmount;
   // Envoyer l'e-mail
   if(accountOwner){
 
+    const htmlContent = `
+    <div style="font-family: Arial, sans-serif; padding: 8px;">
+      <div style="max-width: 600px; margin: auto;">
+        <h2 style="color: #002E3C; font-size:22px; padding : 12px 0 12px 0;">Incoming Transfer on Your Bilsa Account</h2>
+        <p style="font-size: 16px;">
+          <strong>${accountOwner.surname}</strong>,<br />
+          <strong>${parsedAmount} ${account.currency}</strong> has been sent from your  Bilsa account
+          to <strong>${receiverInfos.name || "your peers"}</strong> (${senderInfos.iban}).
+        </p>
+        <p style="font-size: 14px; color: #555;">Check your account for an overview.</p>
+        <p>Thanks</p>
+        <p style="font-size: 12px; color: #999;">— Bilsa Bank, the bank that fits in your pocket</p>
+      </div>
+    </div>
+  `;
+
+
+
      await sendEmail({
            to: accountOwner.email,
            subject: "Outgoing transfer on your Bilsa Account",
-           text: `
-             ${accountOwner.surname} , ${parsedAmount} ${account.currency} has been transferred from your Bilsa account to  ${receiverInfos.name || "your peers"}. Check your account for an overview.
-             
-           `
+           html : htmlContent
          });
 }
 

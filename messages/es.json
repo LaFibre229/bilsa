@@ -1,0 +1,532 @@
+{
+  "Homepage": {
+    "bilsaBankingCard": {
+      "title": "Libertad para ahorrar, poder para elegir",
+      "flexibility": {
+        "title": "Tus necesidades cambian — nosotros también: Siempre flexibles",
+        "description": "Desde ajustar tus límites hasta gestionar tus cuentas en tiempo real, nuestra plataforma se adapta a ti. Disfruta de control total, personalización sin esfuerzo y una banca que se mueve contigo."
+      },
+      "saving": {
+        "title": "Ahorro — Herramientas inteligentes para hacer crecer tu dinero",
+        "description": "Define tus metas, automatiza tus ahorros y sigue tu progreso en tiempo real. Ya sea un fondo de emergencia o un gran proyecto, ahorrar nunca fue tan fácil y gratificante."
+      },
+      "freedom": {
+        "title": "Tu banco para uso libre — Haz banca como quieras",
+        "description": "Sin sucursales, sin colas, sin límites. Disfruta de la libertad total de gestionar tu dinero en cualquier momento y lugar. Nuestro enfoque digital te da el control absoluto."
+      },
+      "bankingApp": {
+        "title": "App Bancaria — Tu banco siempre en tu bolsillo",
+        "description": "Controla tus gastos, envía dinero y mantén el control — en cualquier momento y lugar. Nuestra aplicación intuitiva pone la banca segura y rápida al alcance de tu mano."
+      },
+      "cta": "Abrir cuenta bancaria gratuita"
+    },
+     "elementor": {
+      "words": ["Nosotros", "Libertad", "Seguridad", "Facilidad"],
+      "title": "Elige {word}",
+      "subtitle": "Las historias de éxito comienzan aquí",
+      "cta": "Abrir cuenta bancaria gratuita"
+    },
+     "secondCard": {
+      "title": "Eine neue Welt voller Möglichkeiten",
+      "cards": [
+        {
+          "heading": "Sichere Karten",
+          "body": "Karten mit unabhängigen Guthaben, die Sie nach Belieben verteilen können."
+        },
+        {
+          "heading": "Banking mühelos gemacht.",
+          "body": "Vom Kontoeröffnung bis zur Verwaltung Ihrer täglichen Finanzen ist jeder Schritt einfach gestaltet. Kein Fachjargon, keine Komplexität."
+        },
+        {
+          "heading": "Banking ohne Einschränkungen​",
+          "body": "Keine versteckten Gebühren, keine Bürokratie, kein Warten. Öffnen Sie Ihr Konto, verwalten Sie Ihre Finanzen und nutzen Sie alle Funktionen."
+        }
+      ]
+    },
+
+    "lastCard": {
+  "noPaperwork": "Sin papeleo",
+  "accountIn5Minutes": "Tu cuenta en 5 minutos",
+  "registerBrowser": "Regístrate desde tu navegador",
+  "createKey": "Crea una clave para proteger tus pagos y movimientos.",
+  "verifyIdentity": "Verifica tu identidad en unos pocos pasos sencillos",
+  "readyCard": "Listo, ya tienes tu primera Bilsa gratuita lista para usar.",
+  "openAccount": "Abrir cuenta gratuita"
+},
+"securityCard": {
+  "title": "Garantizar su seguridad es nuestra máxima prioridad",
+  "description": "Utilizamos tecnología de vanguardia para proteger sus datos, y sus depósitos están garantizados hasta 100.000 € a través del Esquema de Garantía de Depósitos"
+},
+"accordionCard": {
+  "items": [
+    {
+      "index": "item-1",
+      "title": "¿Bilsa es un banco?",
+      "body": "Bilsa es uno de los pocos bancos 100% móviles que poseen una licencia bancaria alemana emitida por la BaFin, la autoridad financiera alemana. Esto significa que todos sus depósitos en cuentas bancarias están protegidos hasta 100.000 € por el esquema alemán de garantía de depósitos. Actualmente operamos en 9 mercados y tenemos más de 5 millones de clientes."
+    },
+    {
+      "index": "item-2",
+      "title": "¿Bilsa es seguro?",
+      "body": "Bilsa ha obtenido una licencia bancaria alemana emitida por la BaFin. Según las regulaciones actuales, los fondos de cada cliente están protegidos hasta 100.000 € por el esquema alemán de garantía de depósitos. La seguridad de los pagos en línea de nuestros clientes siempre está garantizada."
+    },
+    {
+      "index": "item-3",
+      "title": "¿Cómo protege Bilsa mi dinero y datos personales?",
+      "body": "Como banco, Bilsa está supervisado por la Autoridad Federal de Supervisión Financiera (BaFin). Los fondos de nuestros clientes están garantizados hasta 100.000 € y la app de Bilsa tiene múltiples funciones para garantizar la seguridad de sus cuentas y datos."
+    },
+    {
+      "index": "item-4",
+      "title": "¿Cómo abrir una cuenta Bilsa?",
+      "body": "Para abrir una cuenta Bilsa, debe tener más de 18 años y un teléfono compatible. Se le podrán solicitar otros documentos de respaldo si es necesario."
+    },
+    {
+      "index": "item-5",
+      "title": "¿Qué documentos necesito para abrir una cuenta bancaria?",
+      "body": "No se requiere papeleo complicado para abrir una cuenta con Bilsa. Solo necesita un smartphone. Pueden solicitarse otros documentos de respaldo."
+    },
+    {
+      "index": "item-6",
+      "title": "¿Cuánto tarda en abrir una cuenta Bilsa?",
+      "body": "Puede abrir su cuenta móvil Bilsa en línea en solo unos minutos a través del sitio web de Bilsa, sin papeleo. Lo mejor: una vez activa su cuenta, puede comenzar a usarla inmediatamente."
+    },
+    {
+      "index": "item-7",
+      "title": "¿Cómo obtener un IBAN con mi cuenta Bilsa?",
+      "body": "Todos los clientes de Bilsa que abren una cuenta reciben automáticamente un RIB con un IBAN alemán que comienza con 'DE'."
+    },
+    {
+      "index": "item-8",
+      "title": "¿Dónde puedo encontrar mi IBAN y número de cuenta?",
+      "body": "Para ver su IBAN BILSA, vaya a la sección 'Cuenta' tocando el ícono en la esquina inferior derecha de la pantalla de inicio. Desde allí puede copiar y compartir su IBAN fácilmente."
+    }
+  ]
+}
+
+  },
+
+   "header": {
+    "logo": "BILSA",
+    "nav": {
+      "plans": "Planes",
+      "about": "Acerca de",
+      "contact": "Contáctenos"
+    },
+    "buttons": {
+      "login": "Iniciar sesión",
+      "register": "Abrir cuenta gratuita"
+    }
+  },
+  "footer": {
+    "brand": "BILSA",
+    "slogan": "El banco que cabe en tu bolsillo",
+    "legal": {
+      "title": "Legal",
+      "links": [
+        {"title": "Términos y condiciones", "url": "/#"},
+        {"title": "Avisos legales", "url": "/#"},
+        {"title": "Configuración de consentimiento", "url": "/#"},
+        {"title": "Grupo", "url": "/#"}
+      ]
+    },
+    "contact": {
+      "title": "Contacto",
+      "links": [
+        {"title": "Correo electrónico", "url": "/#"},
+        {"title": "WhatsApp", "url": "/#"}
+      ]
+    },
+    "description": "BILSA es una sociedad anónima simplificada registrada en el Registro Mercantil de Niza con un capital de 4.450.000 euros. Más que un banco, es una experiencia digital: abre una cuenta en minutos, adminístrala en tiempo real, disfruta de tarifas reducidas y total libertad desde tu smartphone. Transparente, rápida y 100% conectada, te da el control de tus finanzas como ningún otro."
+  },
+  "Planspage" : { 
+
+  "pageTitle": "Nuestros planes",
+  "pageSubtitle": "Descubre todo lo que Billsa tiene para ofrecerte",
+  "toggleMonthly": "Mensual",
+  "toggleYearly": "Anual",
+  "plans": {
+    "free": {
+      "title": "Gratis",
+      "priceMonthly": "0,00 € / mes",
+      "priceYearly": "0,00 € / año",
+      "details": [
+        "Tarjetas con saldo compartido",
+        "Saldo máximo: 2.500 €",
+        "Límite de compras: 1.500 €",
+        "Recargas: 500/día",
+        "Recargas POS: 2/día",
+        "1 % comisión por transferencia",
+        "Transferencias SEPA instantáneas a 1",
+        "Retiros en cajero automático: 1/día"
+      ]
+    },
+    "move": {
+      "title": "Move",
+      "priceMonthly": "0,00 € / mes",
+      "priceYearly": "0,00 € / año",
+      "details": [
+        "2 tarjetas con saldo compartido y 3 con saldo independiente",
+        "Saldo máximo: 15.000 €",
+        "Límite de compras: 5.000 €",
+        "Recargas: 1.500 €/día",
+        "Recargas POS: 3/día",
+        "Límite de transferencia: 1.200 €/día",
+        "1 transferencia SEPA instantánea GRATIS",
+        "Retiros en cajero automático: 2/día",
+        "Cashback: hasta 15% en tiendas participantes"
+      ]
+    },
+    "pro": {
+      "title": "Pro",
+      "priceMonthly": "9,99 € / mes",
+      "priceYearly": "9,99 € / año",
+      "details": [
+        "2 tarjetas con saldo compartido y 6 con saldo independiente",
+        "Saldo máximo: ILIMITADO",
+        "Límite de compras: 15.000 €",
+        "Recargas: 4.000 €/día",
+        "Recargas POS: 4/día",
+        "Transferencias ILIMITADAS",
+        "2 transferencias SEPA instantáneas GRATIS",
+        "Transferencias SIN COMISIONES",
+        "Retiros en cajero automático: 4/día",
+        "Cashback: hasta 15% en tiendas participantes"
+      ]
+    }
+  },
+  "faqTitle": "Preguntas frecuentes",
+  "faq": [
+  {
+    "index": "pitem-1",
+    "title": "¿Tiene algún costo la tarjeta?",
+    "body": "El costo máximo de la tarjeta física es de 20 €. El costo máximo de la tarjeta virtual es de 5 €."
+  },
+  {
+    "index": "pitem-2",
+    "title": "¿Hay cargos por transferencias?",
+    "body": "Las transferencias hacia otra entidad que no sea el mismo titular o Pecunpay serán cobradas con 1,50 €."
+  },
+  {
+    "index": "pitem-3",
+    "title": "¿Hay comisión en los pagos?",
+    "body": "Las compras en España y en tiendas internacionales dentro de la zona euro no tendrán comisión. En establecimientos internacionales fuera de la zona euro, la comisión es del 1,75 % sobre el tipo de cambio. En el resto del mundo será del 2 %."
+  }
+]
+
+},
+ "contacts": {
+    "back": "volver",
+    "title": "24 horas para ti",
+    "email": "Correo electrónico",
+    "whatsapp": "WhatsApp"
+  },
+
+  "login": {
+    "title": "Iniciar sesión",
+    "email": "Correo electrónico",
+    "password": "Contraseña",
+    "forgot": "¿Olvidaste tu contraseña?",
+    "submit": "Iniciar",
+    "loading": "Cargando...",
+    "noAccount": "¿No tienes una cuenta?",
+    "signup": "Regístrate",
+    "authenticating": "Autenticando",
+    "success": "Conectado con éxito",
+    "error": "Error al iniciar sesión ❌",
+    "unknownError": "Algo salió mal ❌"
+  },
+  "nav-user" : {
+     "logoutLoading": "Cerrando sesión...",
+  "logoutError": "Error al cerrar sesión",
+  "account": "Cuenta",
+  "logout": "Cerrar sesión"
+  },
+
+  "nav-main": {
+    "quickCreate": "Creación rápida",
+    "transfer": "Transferir",
+    "home": "Inicio"
+  },
+
+  "section-cards": {
+    "helloUser": "Hola {name} 👋",
+    "latestTransactions": "Las últimas transacciones relacionadas con su cuenta aparecerán a continuación. Consulte la página de transacciones para obtener una visión general.",
+    "balance": "Saldo",
+    "iban": "IBAN",
+    "accountNumber": "Número de cuenta"
+  },
+  "create-transaction": {
+    "title": "Transfiere fondos fácilmente con Bilsa Bank",
+    "subtitle": "Envía dinero a amigos, familiares o colegas en unos pocos pasos — rápido, seguro y sin complicaciones.",
+    "type": "Tipo",
+    "deposit": "Depósito",
+    "transfer": "Transferir",
+    "amount": "Cantidad",
+    "motif": "Motivo",
+    "status": "Estado",
+    "in_process": "En proceso",
+    "completed": "Completado",
+    "failed": "Fallido",
+    "sender_infos": "Información del emisor",
+    "recipient_infos": "Información del destinatario",
+    "name": "Nombre",
+    "iban": "IBAN",
+    "sending": "Enviando...",
+    "send": "Enviar",
+    "success": {
+      "created": "Transacción creada con éxito."
+    },
+
+    "insufficient_funds": "Fondos insuficientes en su cuenta.",
+    "verification_required": "Su cuenta debe estar verificada para realizar esta acción.",
+    "server": "Ocurrió un error del servidor. Inténtelo de nuevo más tarde.",
+    "unknown": "Ocurrió un error desconocido. Inténtelo de nuevo."
+    
+  },
+
+   "errors": {
+    "nameRequired": "El nombre es obligatorio",
+    "nameTooLong": "El nombre es demasiado largo",
+    "ibanRequired": "El IBAN es obligatorio",
+    "ibanInvalid": "IBAN inválido",
+    "noAccountId": "Falta el ID de cuenta",
+    "amountInvalid": "La cantidad debe ser un número válido",
+    "senderRequired": "Se requiere información del remitente para un depósito",
+    "receiverRequired": "Se requiere información del destinatario para una transferencia"
+    
+  },
+
+  "transaction-actions": {
+  "copy_payment_id": "Copiar ID de pago",
+  "view_transaction_details": "Ver detalles de la transacción",
+  "view_transaction_progression": "Ver progreso de la transacción"
+},
+
+"history-labels": {
+  "in_process": "En proceso",
+  "status": "Estado",
+  "amount": "Cantidad"
+},
+
+"transaction-progress": {
+  "back": "Volver",
+  "transaction_amount": "Transacción de :",
+  "to": "A :",
+  "status": "Estado :",
+  "subtiltle": "Progreso de la transacción",
+  "footer": "Un resumen de la transacción estará disponible una vez que se haya completado.",
+  "dialog": {
+  "action_needed": "Acción requerida",
+  "text_part1": "Se ha generado un código de seguridad de 6 caracteres y enviado a",
+  "text_part2": "para este paso del proceso. La transacción continuará una vez que se ingrese el código.",
+  "placeholder": "Ingrese el código",
+  "verify": "Verificar",
+  "is_submitting": "Verificando..."
+}
+
+},
+
+"data-table": {
+  "history": "Historial",
+  "no_transaction": "Aún no hay transacciones",
+  "previous": "Anterior",
+  "next": "Siguiente"
+},
+
+"account": {
+  "back": "volver",
+  "personal_infos": {
+    "subtitle": "Sobre ti",
+    "birth_place": "nacido en",
+    "homeTown": "De",
+    "country": "Vive en "
+  },
+  "account_infos": {
+    "account_number": "Número de cuenta :",
+    "currency": "Moneda :",
+    "status": "Estado :",
+    "createdAt": "Creado el :",
+    "subtitle": "Detalles de la cuenta"
+
+  },
+  "validation": {
+    "phrase": "Aún no puedes realizar transacciones. Valida tu cuenta para disfrutar plenamente de los servicios que ofrecemos.",
+    "verify": "Verificar"
+  }
+},
+
+"site-header": {
+  "slogan": "El banco que cabe en tu bolsillo"
+},
+
+"accountCreation": {
+    "step1": {
+      "heading": "Encantado de que estés aquí. En unos pasos a tu cuenta Bilsa",
+      "subheading": "Para abrir tu cuenta, por favor indícanos los datos personales de tu documento de identidad.",
+      "question": "¿Cómo podemos dirigirnos a ti?",
+      "whyAsk": "Por qué lo pedimos",
+      "address": "Dirección",
+      "addressOptions": {
+        "woman": "Mujer",
+        "lord": "Señor",
+        "other": "Otro"
+      },
+      "please_select": "Por favor seleccione",
+      "titleLabel": "Título (opcional)",
+      "firstName": "Nombre(s)",
+      "surname": "Apellido",
+      "birthname": "Nombre de nacimiento (opcional)",
+      "birthdate": "Fecha de nacimiento",
+      "birthdateFormat": "(DD.MM.AAAA)",
+      "birthplace": "Lugar de nacimiento",
+      "birthcountry": "País de nacimiento",
+      "nationality": "Nacionalidad",
+      "continue": "Continuar"
+    },
+    "step2": {
+      "heading": "¿Cuál es tu dirección de registro ",
+      "whyAsk": "Por qué lo pedimos",
+      "postalCode": "Código postal",
+      "street": "Calle",
+      "houseNumber": "Número (opcional)",
+      "residenceSince": "Residencia desde (mes.año)",
+      "residenceSinceFormat": "(MM.AAAA)",
+      "back": "Volver",
+      "continue": "Continuar"
+    },
+
+    "step3": {
+    "heading": "¿Cuál es su empleo actual?",
+    "question": "¿Cómo podemos dirigirnos a usted?",
+    "whyAsk": "¿Por qué lo preguntamos?",
+    "profession": "Profesión",
+    "please_specify": "Por favor especifique",
+    "back": "Atrás",
+    "continue": "Continuar",
+    "please_select" :"Por favor seleccione"
+  },
+  "step4": {
+    "heading": "¿Cómo podemos contactarlo?",
+    "description": "Esta información es voluntaria. Sin embargo, para completar su cuenta en línea, debe completar estos campos. Si no desea proporcionar esta información, puede abrir una cuenta corriente en una sucursal de Commerzbank.",
+    "whyAsk": "¿Por qué lo preguntamos?",
+    "phone": "Número de teléfono",
+    "email": "Correo electrónico",
+    "back": "Atrás",
+    "continue": "Continuar"
+  },
+
+  "step5": {
+    "heading": "Cree un espacio seguro adaptado a sus necesidades",
+    "whyAsk": "¿Por qué lo preguntamos?",
+    "password": "Contraseña",
+    "password_help": "Por favor elija una contraseña segura que contenga al menos 8 caracteres, con letras, números y símbolos.",
+    "back": "Atrás",
+    "submit": "Enviar"
+  },
+  "steps": {
+    "step": "Paso {current} de {total} - {label}",
+    "labels": {
+      "personal": "Datos personales",
+      "address": "Dirección de registro",
+      "employment": "Relación laboral",
+      "contact": "Información de contacto",
+      "security": "Seguridad"
+    }
+  },
+  "errors": {
+    "step1": {
+      "adress": "Por favor seleccione cómo debemos dirigirnos a usted",
+      "firstname": "El nombre es obligatorio",
+      "surname": "El apellido es obligatorio",
+      "birthdate": "La fecha de nacimiento es obligatoria",
+      "birthdate_format": "La fecha debe tener el formato DD.MM.AAAA",
+      "birthplace": "El lugar de nacimiento es obligatorio",
+      "birthcountry": "El país de nacimiento es obligatorio",
+      "nationality": "La nacionalidad es obligatoria"
+    },
+    "step2": {
+      "postalcode_min": "El código postal debe tener al menos 3 caracteres",
+      "postalcode_max": "El código postal debe tener como máximo 10 caracteres",
+      "street": "La calle es obligatoria",
+      "dateresidence": "El formato debe ser MM.AAAA"
+    },
+    "step3": {
+      "profession": "La profesión es obligatoria",
+      "otherProfession": "Por favor especifique su profesión"
+    },
+    "step4": {
+      "phone": "El número de teléfono es obligatorio",
+      "phone_format": "Formato de número de teléfono inválido",
+      "email": "El correo electrónico es obligatorio",
+      "email_format": "Formato de correo inválido"
+    },
+    "step5": {
+      "password_min": "La contraseña debe contener al menos 8 caracteres.",
+      "password_lower": "La contraseña debe contener al menos una letra minúscula.",
+      "password_upper": "La contraseña debe contener al menos una letra mayúscula.",
+      "password_digit": "La contraseña debe contener al menos un número."
+    }
+  }
+  },
+
+  "asideProgress": {
+    "labels": {
+      "personal": "Datos personales",
+      "address": "Dirección de registro",
+      "employment": "Relación laboral",
+      "contact": "Información de contacto",
+      "security": "Seguridad",
+       "title": "Tus próximos pasos"
+    }
+  },
+
+
+  "verifyAccount": {
+  "step1": {
+    "heading": "Hola {firstname}👋",
+    "description": "Un paso más y tendrás acceso completo a tu cuenta Bilsa. Completa estos rápidos pasos y accede a todos nuestros servicios bancarios.",
+    "next": "Siguiente"
+  },
+  "step2": {
+    "heading": "Elige un plan",
+    "description": "Elige el plan que mejor se adapte a tus necesidades y comienza a disfrutar de una experiencia bancaria personalizada.",
+    "free": "Bilsa Gratis",
+    "move": "Bilsa Move",
+    "pro": "Bilsa Pro",
+    "learnMore": "Descubre más sobre nuestros planes en la",
+    "planSection": "sección de planes",
+    "back": "Atrás",
+    "next": "Siguiente"
+  },
+   "step3": {
+    "heading": "Confirma tu dirección de correo",
+    "description": "Enviaremos un código a tu correo para verificarlo. Este correo debe coincidir con el que proporcionaste durante el registro.",
+    "email": "Correo electrónico",
+    "send": "Enviar código",
+    "back": "Atrás"
+  },
+  "step4": {
+    "heading": "Verificación del dispositivo",
+    "email": "Correo electrónico",
+    "codeSent": "Acabamos de enviar tu código de autenticación por correo a",
+    "verify": "Verificar",
+    "back": "Atrás"
+  }
+},
+
+ "formheader": {
+    "title": "¿Realmente desea finalizar su pedido?",
+    "paragraph1": "Tenga en cuenta que la información proporcionada anteriormente ya no estará disponible. Haga clic en el botón \"Ok\" para finalizar el pedido. Después de hacer clic en el enlace \"Volver\" arriba, regrese a sus datos.",
+    "subtitle": "¿Tiene preguntas?",
+    "paragraph2": "Únase a nosotros. Estamos disponibles las 24 horas del día en bilsabank.com",
+    "back": "Volver",
+    "no": "No, continuar pedido",
+    "yes": "Sí, finalizar pedido"
+  }
+
+
+
+
+
+
+
+}

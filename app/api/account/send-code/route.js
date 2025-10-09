@@ -28,15 +28,17 @@ export async function POST(req) {
   // Sauvegarder plan temporaire dans Account
     account.pendingPlan = plan;
     await account.save();
-
+     
     // Envoyer l'e-mail
       await sendEmail({
         to: user.email,
         subject: "Bilsa Account Validation",
-        text: `
-        <p> Hello ${user.firstname} </p>
-          <p>Your Verification code is: <span style ="font-size:24px; font-weight:bold; color : #FAB12F">${code}</span> </p>
-          <p style="color: hsl(227, 12%, 61%); font-size: 2px ">Bilsa , The Bank that fits in your pocket </p>
+        html: `
+        <p style = "font-size : 22px; font-weight:500;"> Hello ${user.firstname} </p>
+          <p>Your Verification code is: <span style ="font-size:24px; font-weight:bold; color : #002E3C">${code}</span> . This code will expire at ${user.codeExpires}</p></br>
+           <p style="font-size: 14px; color: #555;">Check your account for an overview.</p>
+        <p>Thanks</p>
+        <p style="font-size: 12px; color: #999;">— Bilsa Bank, the bank that fits in your pocket</p>
         `
       });
     

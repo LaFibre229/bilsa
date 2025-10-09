@@ -4,9 +4,9 @@ import Link from 'next/link'
 import CreateTransactionForm from '@/components/CreateTransactionForm'
 import { FaLongArrowAltLeft } from 'react-icons/fa'
 
-const page = ({searchParams}) => {
+const page = async ({searchParams}) => {
 
-    const accountId = searchParams?.accountId
+    const accountId = await searchParams?.accountId
   
   console.log(accountId)
   return (
