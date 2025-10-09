@@ -6,7 +6,7 @@ import { IoMenuOutline } from 'react-icons/io5'
 import Link from 'next/link'
 import { ChevronLeft } from 'lucide-react'
 import { useTranslations } from 'next-intl'
-
+import LocaleSwitcher from './LocalSwitcher'
 import {
   Sheet,
   SheetClose,
@@ -27,6 +27,8 @@ const FormHeader = ({ description }) => {
           <IoMenuOutline className='size-8 cursor-pointer' />
           <span className='text-lg font-semibold '>{description}</span>
         </div>
+
+        <LocaleSwitcher />
 
         <Sheet>
           <SheetTrigger asChild>

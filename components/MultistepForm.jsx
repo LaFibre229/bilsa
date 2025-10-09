@@ -57,7 +57,7 @@ export default function MultiStepForm() {
     "nationality",
   ],
   2: ["postalcode", "street", "housenumber", "dateresidence"],
-  3: ["profession, otherProfession"], // exemple, ajuste selon ton step 3
+  3: ["profession", "otherProfession"], // exemple, ajuste selon ton step 3
   4: ["email", "phone"],
   5:["password"]
 };
@@ -157,10 +157,15 @@ setValue("nationality", getValues("nationality") || "");
 
      const onSubmit = async (data) => {
       setIsLoading(true);
-    
+       console.log(data)
       try {
          const res = await api.post("/auth/register", data);
-         localStorage.setItem("token", res.token);
+
+         const token = res.data.token
+         if(token) {
+        localStorage.setItem("token", token);
+         }
+       
          console.log("User registered", res.data);
           toast.success("Your compte has been successfully created");
            router.push('/dashboard');

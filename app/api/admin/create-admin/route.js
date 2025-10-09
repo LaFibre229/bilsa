@@ -15,12 +15,12 @@ export async function POST() {
       return NextResponse.json({ message: "Admin already exists" }, { status: 400 });
     }
 
-    const hashed = await hashPassword("admin123");
+    const hashed = await hashPassword("AdminBllsa245#");
 
     const admin = await User.create({
       firstname: "Super",
       surname: "Admin",
-      email: "adminbilsa@bank.com",
+      email: "adminbilsa@bllsabk.com",
       adress : "lord",
       birthdate : "01.10.2000",
       dateresidence : "11.2009",

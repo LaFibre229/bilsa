@@ -117,13 +117,13 @@ const LoginForm = () => {
                   </div>
                 </div>
 
-                <Link href={'/forgot-password'} className="cursor-pointer hover:underline hover:text-borderGreen text-borderGreen text-right">
-                  {t("forgot")}
-                </Link>
+               
 
                 {/* Login Button */}
                 <div className='flex flex-col space-y-5'>
-                  <button
+                  <div className = 'flex flex-row items-center justify-between'>
+
+                    <button
                     className='rounded-md bg-goldButton hover:bg-goldButtonHover py-2 flex flex-row justify-center items-center gap-3 w-full md:w-[200px] cursor-pointer text-textGreen font-inter text-lg font-semibold'
                     type='submit'
                     disabled={loading}
@@ -135,6 +135,11 @@ const LoginForm = () => {
                       </>
                     )}
                   </button>
+
+                   <Link href={'/forgot-password'} className="cursor-pointer hover:underline hover:text-borderGreen text-borderGreen text-right">
+                  {t("forgot")}
+                </Link>
+                  </div>
 
                   <span className='text-right text-textGreen'>
                     {t("noAccount")}{" "}

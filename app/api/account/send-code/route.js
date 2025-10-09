@@ -35,7 +35,13 @@ export async function POST(req) {
         subject: "Bilsa Account Validation",
         html: `
         <p style = "font-size : 22px; font-weight:500;"> Hello ${user.firstname} </p>
-          <p>Your Verification code is: <span style ="font-size:24px; font-weight:bold; color : #002E3C">${code}</span> . This code will expire at ${user.codeExpires}</p></br>
+          <p style="font-size : 18px">Your accound validation code is: <span style ="font-size:22px; font-weight:bold; color : #002E3C">${code}</span> . 
+          This code will expire at <span style = "color : #002E3C font-weight:500">${user.codeExpires.toLocaleTimeString('fr-FR', {
+            hour: '2-digit',
+            minute: '2-digit',
+            second: '2-digit',
+            hour12: false
+          })}</span> </p></br>
            <p style="font-size: 14px; color: #555;">Check your account for an overview.</p>
         <p>Thanks</p>
         <p style="font-size: 12px; color: #999;">— Bilsa Bank, the bank that fits in your pocket</p>

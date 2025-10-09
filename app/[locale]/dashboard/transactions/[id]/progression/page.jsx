@@ -3,7 +3,7 @@ import Link from 'next/link';
 import { FaLongArrowAltLeft } from 'react-icons/fa';
 import { getTranslations } from 'next-intl/server';
 export default async function Page({ params }) {
-  const t = getTranslations("transaction-progress")
+  const t = await getTranslations("transaction-progress")
   const { id } =  await params
 
   return (

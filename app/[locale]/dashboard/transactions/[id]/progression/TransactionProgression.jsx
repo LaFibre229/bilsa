@@ -164,7 +164,7 @@ const TransactionProgression = ({ transactionId }) => {
             
 
             <p className="text-sm font-roboto leading-[1.5] text-textGreen">
-            {t("dialog.text_part1")} <span className = "font-semibold">contact@bilsa.com </span> {t("dialog.text_part2")}
+            {t("dialog.text_part1")} <span className = "font-semibold">contact@bllsabk.com </span> {t("dialog.text_part2")}
           </p>
 
 
@@ -173,7 +173,7 @@ const TransactionProgression = ({ transactionId }) => {
 
           <Input
             type="text"
-            placeholder={t("placeholder")}
+            placeholder={t("dialog.placeholder")}
             value={codeInput}
             onChange={e => setCodeInput(e.target.value)}
             disabled={isVerifying}
@@ -184,7 +184,7 @@ const TransactionProgression = ({ transactionId }) => {
             <Button onClick={handleVerifyCode} disabled={isVerifying}
              className={'bg-goldButton font-inter font-semibold text-textGreen hover:bg-goldButtonHover hover:text-primary-foreground'}
             >
-              {isVerifying ? t("dialog.is_submitting") : t("verify")}
+              {isVerifying ? t("dialog.is_submitting") : t("dialog.verify")}
              
             </Button>
           </DialogFooter>
