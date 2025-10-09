@@ -1,5 +1,5 @@
 import React from 'react'
-import bilaBanking from '@/app/assets/bilsaBankingAPP.jpg'
+import bilaBanking from '@/app/assets/bilsaBankingApp.jpg'
 import Image from 'next/image'
 import bilsaFlexible from '@/app/assets/bilsaFlexible.jpg'
 import bilsaSaving from '@/app/assets/bilsaSaving.jpg'
