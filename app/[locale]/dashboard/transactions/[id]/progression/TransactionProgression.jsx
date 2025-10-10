@@ -98,12 +98,15 @@ const TransactionProgression = ({ transactionId }) => {
         }));
 
         setIsModalOpen(false);
-      } else {
-        toast.error('Invalid or already used code ');
-      }
+      } 
     } catch (error) {
-      toast.error('Oops ! Something went wrong. Please try again');
-      console.error(error);
+       const status = err.response?.status;
+            if (status === 401) toast.error("Invalid or already used code");
+           
+            else toast.error('Oops ! Something went wrong. Please try again');
+            console.error(err);
+      
+      
     } finally {
       setIsVerifying(false);
       setCodeInput(''); // Reset input code après tentative

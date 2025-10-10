@@ -130,7 +130,7 @@ const CreateTransactionForm = ({ accountId, context = "client", defaulType = "tr
 
               <div className="grid gap-3">
                 <Label className={'font-montserrat font-medium'} htmlFor="motif">{t("motif")}</Label>
-                <Input id="motif" type="text" placeholder="Eg: donation" {...register('motif')} />
+                <Input id="motif" type="text" {...register('motif')} />
               </div>
 
               {context === "admin" && (
@@ -183,14 +183,14 @@ const CreateTransactionForm = ({ accountId, context = "client", defaulType = "tr
                 <>
                   <div className="py-4 px-3 border rounded-md flex flex-col space-y-3">
                     <h4 className="font-medium mb-2 font-montserrat">{t("recipient_infos")}</h4>
-                    <Input type="text" {...register('receiverInfos.name')} placeholder={t("name")} />
+                    <Input type="text" {...register('receiverInfos.name')} />
                     {errors.receiverInfos?.name && (
                       <div className="flex flex-row gap-3 items-center text-red-700">
                         <IconAlertTriangle />
                         {errors.receiverInfos.name.message}
                       </div>
                     )}
-                    <Input type="text" {...register('receiverInfos.iban')} placeholder={t("iban")} />
+                    <Input type="text" {...register('receiverInfos.iban')} />
                     {errors.receiverInfos?.iban && (
                       <div className="flex flex-row gap-3 items-center text-red-700">
                         <IconAlertTriangle />
