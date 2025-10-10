@@ -1,18 +1,21 @@
+export const runtime = 'nodejs'; // ou 'nodejs' selon ta logique
+export const dynamic = 'force-dynamic';
+
 import { NextResponse } from 'next/server';
 import Transaction from '@/lib/models/Transaction.model';
 import { connectDb } from '@/lib/config/dbConnect';
 
 
-export const runtime = 'nodejs'; // ou 'nodejs' selon ta logique
-export const dynamic = 'force-dynamic';
+
 
 // ATTENTION : ajouter cette ligne pour dire à Vercel que c'est une scheduled function
-export const schedule = '*/1 * * * *'; // toutes les 5 minutes
+export const schedule = '*/1 * * * *'; // toutes les 1 minutes
 
 
 export async function GET() {
   try {
     await connectDb();
+    console.log("✅ Scheduled function triggered automatiquement", new Date().toISOString());
 
     const transactions = await Transaction.find({
       status: "in_process",
