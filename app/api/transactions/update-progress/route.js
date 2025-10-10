@@ -3,7 +3,7 @@ import Transaction from '@/lib/models/Transaction.model';
 import { connectDb } from '@/lib/config/dbConnect';
 
 
-export const runtime = 'edge'; // ou 'nodejs' selon ta logique
+export const runtime = 'nodejs'; // ou 'nodejs' selon ta logique
 export const dynamic = 'force-dynamic';
 
 // ATTENTION : ajouter cette ligne pour dire à Vercel que c'est une scheduled function
