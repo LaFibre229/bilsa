@@ -131,7 +131,7 @@ const TransactionProgression = ({ transactionId }) => {
 
         <div className='flex flex-col space-y-4 w-full border-t border-muted'>
             <div className='flex flex-row items-center justify-between'><span className='font-medium'>{t("transaction_amount")}</span> <span className='font-normal'>{`${transaction.amount} EUR`}</span></div>
-          <div className='flex flex-row items-center justify-between'><span className='font-medium'>{t("to")}</span> <span className='font-normal'>{transaction.receiverInfos?.iban}</span></div>
+          <div className='flex flex-row items-start justify-between my-3'><span className='font-medium'>{t("to")}</span> <div className='font-normal p-3 flex flex-col items-end space-y-2'><span>{transaction.receiverInfos?.iban}</span> <span>{transaction.receiverInfos.name}</span></div></div>
           <div className='flex flex-row items-center justify-between'><span className='font-medium'>{t("status")}</span> <span className='font-normal'>Processing</span></div>
         </div>
       </div>

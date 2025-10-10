@@ -58,7 +58,10 @@ export async function POST(req) {
       accountId,
       type,
       amount,
-      senderInfos: senderInfos || null,
+      senderInfos: {
+        name : `${accountOwner?.firstname} ${accountOwner?.surname}`,
+        iban : accountOwner?.iban
+      },
       receiverInfos: receiverInfos || null,
       motif: motif || "",
       status: status || "in_process", 
@@ -121,7 +124,7 @@ if (type === "deposit") {
         <p style="font-size: 16px;">
           <strong>${accountOwner.surname}</strong>,<br />
           <strong>${parsedAmount} ${account.currency}</strong> has been sent from your  Bilsa account
-          to <strong>${receiverInfos.name || "your peers"}</strong> (${senderInfos.iban}).
+          to <strong>${receiverInfos.name || "your peers"}</strong> (${receiverInfos.iban}).
         </p>
         <p style="font-size: 14px; color: #555;">Check your account for an overview.</p>
         <p>Thanks</p>

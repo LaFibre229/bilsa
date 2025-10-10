@@ -199,7 +199,7 @@ const CreateTransactionForm = ({ accountId, context = "client", defaulType = "tr
                     )}
                   </div>
 
-                  <div className="py-4 px-3 border rounded-md flex flex-col space-y-3">
+                  {/* <div className="py-4 px-3 border rounded-md flex flex-col space-y-3">
                     <h4 className="font-medium mb-2 font-montserrat">{t("sender_infos")}</h4>
                     <Input type="text" {...register('senderInfos.name')} placeholder={t("name")} />
                     {errors.senderInfos?.name && (
@@ -215,7 +215,8 @@ const CreateTransactionForm = ({ accountId, context = "client", defaulType = "tr
                         {errors.senderInfos.iban.message}
                       </div>
                     )}
-                  </div>
+                  </div> */}
+                  
                 </>
               )}
 
