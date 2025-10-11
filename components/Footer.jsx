@@ -41,7 +41,7 @@ const Footer = () => {
           <h2 className='font-semibold text-xl pb-2'>{t('contact.title')}</h2>
           <div className='flex flex-col space-y-4 items-start'>
             {t.raw('contact.links', { returnObjects: true }).map((l, index) => (
-              <Link className='text-lg' key={index} href={l.url}>{l.title}</Link>
+              <a className='text-lg' key={index} href={l.url} target='_blank'>{l.title}</a>
             ))}
           </div>
         </div>

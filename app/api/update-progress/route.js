@@ -13,6 +13,11 @@ export const schedule = '*/1 * * * *'; // toutes les 1 minutes
 
 
 export async function GET() {
+   // Vérifie la clé secrète envoyée par le cron externe
+  const authKey = req.headers.get("x-cron-key");
+  if (authKey !== process.env.CRON_SECRET_KEY) {
+    return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
+  }
   try {
     await connectDb();
     console.log("✅ Scheduled function triggered automatiquement", new Date().toISOString());

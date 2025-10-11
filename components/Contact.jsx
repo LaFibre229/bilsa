@@ -20,18 +20,22 @@ const ContactsComponent = async () => {
         <h4 className='text-xl font-bold'>{t('title')}</h4>
 
         <div className="flex flex-row items-center space-x-4">
+          <a href="mailto:contackbllsa@bllsa.com">
           <div className='flex flex-col items-center space-y-3'>
             <span className='p-4 rounded-full border-2 border-textGreen hover:border-3 cursor-pointer'>
               <IoIosMailUnread className='h-10 w-10' />
             </span>
             <span className='text-sm font-semibold'>{t('email')}</span>
           </div>
+          </a>
+          <a href="https://wa.me/491637130047" target='_blank' rel="noopener noreferrer">
           <div className='flex flex-col items-center space-y-3'>
             <span className='p-4 rounded-full border-2 border-textGreen hover:border-3 cursor-pointer'>
               <FaWhatsapp className='h-10 w-10' />
             </span>
             <span className='text-sm font-semibold'>{t('whatsapp')}</span>
           </div>
+          </a>
         </div>
       </div>
     </div>

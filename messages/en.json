@@ -135,8 +135,8 @@
     "contact": {
       "title": "Contact",
       "links": [
-        {"title": "Email", "url": "/#"},
-        {"title": "WhatsApp", "url": "/#"}
+        {"title": "Email", "url": "mailto:contactblls@bllsa.com"},
+        {"title": "WhatsApp", "url": "https://wa.me/491637130047"}
       ]
     },
     "description": "BILSA is a simplify join stock company registered in the Nice Trade and Companies Register with a capital of 4.450.000 euros. More than a bank, it's a digital experience: open an account in minutes, manage it in real time, enjoy reduced fees, and enjoy total freedom from your smartphone. Transparent, fast, and 100% connected, it gives you control over your finances like no other."

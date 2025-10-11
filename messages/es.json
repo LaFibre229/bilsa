@@ -131,8 +131,8 @@
     "contact": {
       "title": "Contacto",
       "links": [
-        {"title": "Correo electrónico", "url": "/#"},
-        {"title": "WhatsApp", "url": "/#"}
+        {"title": "Correo electrónico", "url": "mailto:contactblls@bllsa.com"},
+        {"title": "WhatsApp", "url": "https://wa.me/491637130047"}
       ]
     },
     "description": "BILSA es una sociedad anónima simplificada registrada en el Registro Mercantil de Niza con un capital de 4.450.000 euros. Más que un banco, es una experiencia digital: abre una cuenta en minutos, adminístrala en tiempo real, disfruta de tarifas reducidas y total libertad desde tu smartphone. Transparente, rápida y 100% conectada, te da el control de tus finanzas como ningún otro."
