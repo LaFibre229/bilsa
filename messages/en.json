@@ -323,7 +323,7 @@
   "footer" : "An overview of the transaction will be available once it is completed.",
   "dialog" : {
     "action_needed" : "Action needed",
-    "text_part1" : " A 6-character secure code has been generated and sent to ",
+    "text_part1" : " A 8-character secure code has been generated and sent to ",
      "text_part2" : " for this step of the progression. The transaction will resume once the code is entered.",
      "placeholder" : "Enter the code",
      "verify" : "Verify",
@@ -344,7 +344,8 @@
     "subtitle" : "About you",
     "birth_place" : "at",
     "homeTown" : "From",
-    "country" : "Lives at "
+    "country" : "Lives at ",
+    "socialSecurityNumber" :"Social Security Number (SSN)"
   },
 
   "account_infos" : {
@@ -387,7 +388,8 @@
       "birthplace": "Birth Place",
       "birthcountry": "Birth country",
       "nationality": "Nationality",
-      "continue": "Continue"
+      "continue": "Continue",
+      "socialSecurityNumber": "Social Security Number (SSN)"
     },
     "step2": {
       "heading": "What is your registration address ",
@@ -424,6 +426,7 @@
     "heading": "Create a secure space adapted to your needs",
     "whyAsk": "Why do we ask it",
     "password": "Password",
+    "confirmPassword": "Confirm password",
     "password_help": "Please choose a strong password containing at least 8 characters, with letters, numbers and symbols.",
     "back": "Back",
     "submit": "Submit"
@@ -450,7 +453,9 @@
       "birthdate_format": "Date must be in format DD.MM.YYYY",
       "birthplace": "Birth place is required",
       "birthcountry": "Birth country is required",
-      "nationality": "Nationality is required"
+      "nationality": "Nationality is required",
+       "ssn_min": "The social security number is too short.",
+       "ssn_max": "The social security number is too long."
 
     },
     "step2" : {
@@ -475,8 +480,8 @@
        "password_min": "Password must contain at least 8 characters.",
       "password_lower": "Password must contain at least one lowercase letter.",
       "password_upper": "Password must contain at least one capital letter.",
-      "password_digit": "The password must contain at least one number."
-
+      "password_digit": "The password must contain at least one number.",
+       "password_match": "Passwords must match"
     }
   }
   },
@@ -498,6 +503,7 @@
     "heading": "Hi {firstname}👋",
     "description": "Just one more step and you'll be able to enjoy full access to your Bilsa account. Complete these quick steps and unlock all our banking services right away.",
     "next": "Next"
+    
   },
   "step2": {
     "heading": "Choose a Plan",
@@ -528,6 +534,14 @@
   "codeSent": "We just sent your authentication code via email to",
   "verify": "Verify",
   "back": "Back"
+  },
+
+  "step5" : {
+     "heading": "Currency Choice",
+     "description" : "Pick your preferred currency",
+     "please_select" :"Please select",
+     "currency" :"Currency "
+    
   }
 },
 

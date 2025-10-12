@@ -9,7 +9,7 @@ export async function POST(req) {
   await connectDb();
   try {
 
-    const { email, plan } = await req.json();
+    const { email, plan, currency } = await req.json();
   
 
   const user = await User.findOne({ email });
@@ -27,6 +27,7 @@ export async function POST(req) {
 
   // Sauvegarder plan temporaire dans Account
     account.pendingPlan = plan;
+    account.currency = currency;
     await account.save();
      
     // Envoyer l'e-mail

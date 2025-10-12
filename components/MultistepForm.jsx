@@ -33,6 +33,7 @@ export default function MultiStepForm() {
   const t = useTranslations('accountCreation.steps')
   const validationMessage = useTranslations("accountCreation.errors");
   const schema = createUserSchema(validationMessage)
+  
   // descriptions de chaque étape
    const totalSteps = 5
 
@@ -156,6 +157,8 @@ setValue("nationality", getValues("nationality") || "");
     
 
      const onSubmit = async (data) => {
+
+     
       setIsLoading(true);
        console.log(data)
       try {
@@ -364,6 +367,30 @@ const t5 = useTranslations('accountCreation.step5');
                   peer-[&:not(:placeholder-shown)]:text-textGreen"
                 >
                   {t1('birthname')}
+                </label>
+              </div>
+
+                 <div className="relative w-full">
+                <input
+                  type="text"
+                  {...register('socialSecurityNumber')}
+                  id="socialSecurity"
+                  placeholder=" "
+                  className="peer w-full border-0 border-b border-textGreen bg-transparent px-0 pt-5 pb-1 text-textGreen hover:border-b-2 placeholder-transparent focus:border-b-2 focus:border-textGreen focus:outline-none"
+                />
+                {errors.socialSecurityNumber && (
+                   <div className="flex flex-row gap-3 items-center text-red-700">
+                    <IconAlertTriangle />
+                    {errors.socialSecurityNumber.message}
+                  </div>
+                )}
+                <label
+                  htmlFor="socialSecutity"
+                  className="absolute left-0 top-1/2 -translate-y-1/2 text-textGreen transition-all peer-placeholder-shown:top-5 peer-placeholder-shown:text-textGreen peer-placeholder-shown:text-base peer-focus:top-0 peer-focus:text-sm peer-focus:text-textGreen
+                  peer-[&:not(:placeholder-shown)]:top-0 peer-[&:not(:placeholder-shown)]:text-sm
+                  peer-[&:not(:placeholder-shown)]:text-textGreen"
+                >
+                  {t1('socialSecurityNumber')}
                 </label>
               </div>
 
@@ -892,6 +919,40 @@ case 3:
                   {showPassword ? <EyeOff className="w-5 h-5" /> : <Eye className="w-5 h-5" />}
                 </button>
               </div>
+                {/* Confirm password */}
+          
+              <div className="relative w-full">
+                <input
+                  {...register('confirmPassword')}
+                  type={showPassword ? "text" : "password"}
+                  id="confirmPassword"
+                  placeholder=" "
+                  className="peer w-full border-0 border-b border-textGreen bg-transparent px-0 pt-5 pb-1 text-textGreen hover:border-b-2 placeholder-transparent focus:border-b-2 focus:border-textGreen focus:outline-none"
+                />
+                {errors.confirmPassword && (
+                   <div className="flex flex-row gap-3 items-center text-red-700">
+                    <IconAlertTriangle />
+                    {errors.confirmPassword.message}
+                  </div>
+                )}
+                <label
+                  htmlFor="confirmPassword"
+                  className="absolute left-0 top-1/2 -translate-y-1/2 text-textGreen transition-all peer-placeholder-shown:top-5 peer-placeholder-shown:text-textGreen peer-placeholder-shown:text-base peer-focus:top-0 peer-focus:text-sm peer-focus:text-textGreen
+                    peer-[&:not(:placeholder-shown)]:top-0 peer-[&:not(:placeholder-shown)]:text-sm
+                    peer-[&:not(:placeholder-shown)]:text-textGreen"
+                >
+                  {t5('confirmPassword')}
+                </label>
+
+                <button
+                  type="button"
+                  onClick={() => setShowPassword(!showPassword)}
+                  className="absolute right-3 top-2.5 text-gray-500 hover:text-gray-700"
+                >
+                  {showPassword ? <EyeOff className="w-5 h-5" /> : <Eye className="w-5 h-5" />}
+                </button>
+              </div>
+
 
               <p className="text-lg text-textGreen">
                 {t5('password_help')}

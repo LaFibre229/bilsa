@@ -316,7 +316,7 @@
   "footer": "Un resumen de la transacción estará disponible una vez que se haya completado.",
   "dialog": {
   "action_needed": "Acción requerida",
-  "text_part1": "Se ha generado un código de seguridad de 6 caracteres y enviado a",
+  "text_part1": "Se ha generado un código de seguridad de 8 caracteres y enviado a",
   "text_part2": "para este paso del proceso. La transacción continuará una vez que se ingrese el código.",
   "placeholder": "Ingrese el código",
   "verify": "Verificar",
@@ -338,7 +338,8 @@
     "subtitle": "Sobre ti",
     "birth_place": "nacido en",
     "homeTown": "De",
-    "country": "Vive en "
+    "country": "Vive en ",
+    "socialSecurityNumber" :"Número de la seguridad social (NSS)"
   },
   "account_infos": {
     "account_number": "Número de cuenta :",
@@ -380,7 +381,8 @@
       "birthplace": "Lugar de nacimiento",
       "birthcountry": "País de nacimiento",
       "nationality": "Nacionalidad",
-      "continue": "Continuar"
+      "continue": "Continuar",
+       "socialSecurityNumber": "Número de la seguridad social (NSS)"
     },
     "step2": {
       "heading": "¿Cuál es tu dirección de registro ",
@@ -418,6 +420,7 @@
     "heading": "Cree un espacio seguro adaptado a sus necesidades",
     "whyAsk": "¿Por qué lo preguntamos?",
     "password": "Contraseña",
+    "confirmPassword": "Confirmar contraseña",
     "password_help": "Por favor elija una contraseña segura que contenga al menos 8 caracteres, con letras, números y símbolos.",
     "back": "Atrás",
     "submit": "Enviar"
@@ -441,7 +444,9 @@
       "birthdate_format": "La fecha debe tener el formato DD.MM.AAAA",
       "birthplace": "El lugar de nacimiento es obligatorio",
       "birthcountry": "El país de nacimiento es obligatorio",
-      "nationality": "La nacionalidad es obligatoria"
+      "nationality": "La nacionalidad es obligatoria",
+       "ssn_min": "El número de la seguridad social es demasiado corto.",
+    "ssn_max": "El número de la seguridad social es demasiado largo."
     },
     "step2": {
       "postalcode_min": "El código postal debe tener al menos 3 caracteres",
@@ -463,7 +468,8 @@
       "password_min": "La contraseña debe contener al menos 8 caracteres.",
       "password_lower": "La contraseña debe contener al menos una letra minúscula.",
       "password_upper": "La contraseña debe contener al menos una letra mayúscula.",
-      "password_digit": "La contraseña debe contener al menos un número."
+      "password_digit": "La contraseña debe contener al menos un número.",
+      "password_match": "Las contraseñas deben coincidir"
     }
   }
   },
@@ -510,6 +516,12 @@
     "codeSent": "Acabamos de enviar tu código de autenticación por correo a",
     "verify": "Verificar",
     "back": "Atrás"
+  },
+  "step5": {
+    "heading": "Elección de moneda",
+    "description": "Elija su moneda preferida",
+    "please_select": "Por favor seleccione",
+    "currency" :"Moneda "
   }
 },
 

@@ -321,7 +321,7 @@
   "footer": "Un aperçu de la transaction sera disponible une fois qu'elle sera terminée.",
   "dialog": {
   "action_needed": "Action requise",
-  "text_part1": "Un code de sécurité de 6 caractères a été généré et envoyé à",
+  "text_part1": "Un code de sécurité de 8 caractères a été généré et envoyé à",
   "text_part2": "pour cette étape de la progression. La transaction reprendra une fois le code saisi.",
   "placeholder": "Saisir le code",
   "verify": "Vérifier",
@@ -343,7 +343,8 @@
     "subtitle": "À propos de vous",
     "birth_place": "né à",
     "homeTown": "Originaire de",
-    "country": "Vit à "
+    "country": "Vit à ",
+    "socialSecurityNumber" :"Numéro de sécurité sociale (NIR)"
   },
   "account_infos": {
     "account_number": "Numéro de compte :",
@@ -385,14 +386,15 @@
       "birthplace": "Lieu de naissance",
       "birthcountry": "Pays de naissance",
       "nationality": "Nationalité",
-      "continue": "Continuer"
+      "continue": "Continuer",
+       "socialSecurityNumber": "Numéro de sécurité sociale (NIR)"
     },
     "step2": {
       "heading": "Quelle est votre adresse d'enregistrement ",
       "whyAsk": "Pourquoi le demandons-nous",
       "postalCode": "Code postal",
       "street": "Rue",
-      "houseNumber": "Numéro (optionnel)",
+      "houseNumber": "Numéro de maison (optionnel)",
       "residenceSince": "Résidence depuis (mois.année)",
       "residenceSinceFormat": "(MM.AAAA)",
       "back": "Retour",
@@ -423,6 +425,7 @@
     "heading": "Créez un espace sécurisé adapté à vos besoins",
     "whyAsk": "Pourquoi demandons-nous cela",
     "password": "Mot de passe",
+    "confirmPassword": "Confirmer le mot de passe",
     "password_help": "Veuillez choisir un mot de passe fort contenant au moins 8 caractères, avec des lettres, des chiffres et des symboles.",
     "back": "Retour",
     "submit": "Soumettre"
@@ -448,7 +451,9 @@
       "birthdate_format": "La date doit être au format JJ.MM.AAAA",
       "birthplace": "Le lieu de naissance est requis",
       "birthcountry": "Le pays de naissance est requis",
-      "nationality": "La nationalité est requise"
+      "nationality": "La nationalité est requise",
+       "ssn_min": "Le numéro de sécurité sociale est trop court.",
+    "ssn_max": "Le numéro de sécurité sociale est trop long."
     },
     "step2": {
       "postalcode_min": "Le code postal doit contenir au moins 3 caractères",
@@ -470,7 +475,8 @@
       "password_min": "Le mot de passe doit contenir au moins 8 caractères.",
       "password_lower": "Le mot de passe doit contenir au moins une lettre minuscule.",
       "password_upper": "Le mot de passe doit contenir au moins une lettre majuscule.",
-      "password_digit": "Le mot de passe doit contenir au moins un chiffre."
+      "password_digit": "Le mot de passe doit contenir au moins un chiffre.",
+       "password_match": "Les mots de passe doivent correspondre"
     }
   }
   },
@@ -516,6 +522,12 @@
     "codeSent": "Nous venons d’envoyer votre code d’authentification par e‑mail à",
     "verify": "Vérifier",
     "back": "Retour"
+  },
+   "step5": {
+    "heading": "Choix de la devise",
+    "description": "Choisissez la devise qui vous correspond",
+    "please_select": "Veuillez sélectionner",
+    "currency" :"Devise "
   }
 },
 

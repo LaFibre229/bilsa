@@ -319,7 +319,7 @@
   "footer": "Una panoramica della transazione sarà disponibile una volta completata.",
   "dialog": {
   "action_needed": "Azione necessaria",
-  "text_part1": "È stato generato un codice di sicurezza di 6 caratteri e inviato a",
+  "text_part1": "È stato generato un codice di sicurezza di 8 caratteri e inviato a",
   "text_part2": "per questa fase del processo. La transazione riprenderà una volta inserito il codice.",
   "placeholder": "Inserisci il codice",
   "verify": "Verifica",
@@ -341,7 +341,8 @@
     "subtitle": "Informazioni personali",
     "birth_place": "nato a",
     "homeTown": "Di",
-    "country": "Vive a "
+    "country": "Vive a ",
+    "socialSecurityNumber" :"Numero di previdenza sociale (Codice fiscale / INPS)"
   },
   "account_infos": {
     "account_number": "Numero di conto :",
@@ -383,7 +384,8 @@
       "birthplace": "Luogo di nascita",
       "birthcountry": "Paese di nascita",
       "nationality": "Nazionalità",
-      "continue": "Continua"
+      "continue": "Continua",
+       "socialSecurityNumber": "Numero di previdenza sociale (Codice fiscale / INPS)"
     },
     "step2": {
       "heading": "Qual è il tuo indirizzo di registrazione ",
@@ -421,6 +423,7 @@
     "heading": "Crea uno spazio sicuro adattato alle tue esigenze",
     "whyAsk": "Perché lo chiediamo",
     "password": "Password",
+    "confirmPassword": "Conferma password",
     "password_help": "Si prega di scegliere una password sicura contenente almeno 8 caratteri, con lettere, numeri e simboli.",
     "back": "Indietro",
     "submit": "Invia"
@@ -445,7 +448,9 @@
       "birthdate_format": "La data deve essere nel formato GG.MM.AAAA",
       "birthplace": "Il luogo di nascita è obbligatorio",
       "birthcountry": "Il paese di nascita è obbligatorio",
-      "nationality": "La nazionalità è obbligatoria"
+      "nationality": "La nazionalità è obbligatoria",
+       "ssn_min": "Il numero di previdenza sociale è troppo corto.",
+    "ssn_max": "Il numero di previdenza sociale è troppo lungo."
     },
     "step2": {
       "postalcode_min": "Il CAP deve contenere almeno 3 caratteri",
@@ -467,7 +472,8 @@
       "password_min": "La password deve contenere almeno 8 caratteri.",
       "password_lower": "La password deve contenere almeno una lettera minuscola.",
       "password_upper": "La password deve contenere almeno una lettera maiuscola.",
-      "password_digit": "La password deve contenere almeno un numero."
+      "password_digit": "La password deve contenere almeno un numero.",
+       "password_match": "Le password devono corrispondere"
     }
   }
   },
@@ -513,6 +519,12 @@
     "codeSent": "Abbiamo appena inviato il tuo codice di autenticazione via email a",
     "verify": "Verifica",
     "back": "Indietro"
+  },
+  "step5": {
+    "heading": "Scelta della valuta",
+    "description": "Scegli la tua valuta preferita",
+    "please_select": "Seleziona per favore",
+    "currency" :"Valuta "
   }
 },
 

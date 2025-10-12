@@ -314,7 +314,7 @@
   "footer": "Een overzicht van de transactie is beschikbaar zodra deze is voltooid.",
   "dialog": {
   "action_needed": "Actie vereist",
-  "text_part1": "Er is een beveiligingscode van 6 tekens gegenereerd en verzonden naar",
+  "text_part1": "Er is een beveiligingscode van 8 tekens gegenereerd en verzonden naar",
   "text_part2": "voor deze stap in het proces. De transactie wordt hervat zodra de code is ingevoerd.",
   "placeholder": "Voer de code in",
   "verify": "Verifiëren",
@@ -335,7 +335,8 @@
     "subtitle": "Over jou",
     "birth_place": "geboren in",
     "homeTown": "Komt uit",
-    "country": "Woont in "
+    "country": "Woont in ",
+    "socialSecurityNumber" :"Nummer van sociale zekerheid (BSN)"
   },
   "account_infos": {
     "account_number": "Rekeningnummer :",
@@ -377,7 +378,8 @@
       "birthplace": "Geboorteplaats",
       "birthcountry": "Geboorteland",
       "nationality": "Nationaliteit",
-      "continue": "Doorgaan"
+      "continue": "Doorgaan",
+       "socialSecurityNumber": "Nummer van sociale zekerheid (BSN)"
     },
     "step2": {
       "heading": "Wat is je registratieadres",
@@ -415,6 +417,7 @@
     "heading": "Creëer een veilige ruimte die is aangepast aan uw behoeften",
     "whyAsk": "Waarom vragen we dit?",
     "password": "Wachtwoord",
+     "confirmPassword": "Bevestig wachtwoord",
     "password_help": "Kies een sterk wachtwoord met minstens 8 tekens, bestaande uit letters, cijfers en symbolen.",
     "back": "Terug",
     "submit": "Verzenden"
@@ -439,7 +442,9 @@
       "birthdate_format": "Datum moet in formaat DD.MM.JJJJ zijn",
       "birthplace": "Geboorteplaats is verplicht",
       "birthcountry": "Geboorteland is verplicht",
-      "nationality": "Nationaliteit is verplicht"
+      "nationality": "Nationaliteit is verplicht",
+      "ssn_min": "Het sociaal zekerheidsnummer is te kort.",
+    "ssn_max": "Het sociaal zekerheidsnummer is te lang."
     },
     "step2": {
       "postalcode_min": "De postcode moet minimaal 3 tekens bevatten",
@@ -461,7 +466,8 @@
       "password_min": "Wachtwoord moet ten minste 8 tekens bevatten.",
       "password_lower": "Wachtwoord moet ten minste één kleine letter bevatten.",
       "password_upper": "Wachtwoord moet ten minste één hoofdletter bevatten.",
-      "password_digit": "Wachtwoord moet ten minste één cijfer bevatten."
+      "password_digit": "Wachtwoord moet ten minste één cijfer bevatten.",
+       "password_match": "Wachtwoorden moeten overeenkomen"
     }
   }
   },
@@ -509,6 +515,12 @@
     "codeSent": "We hebben zojuist uw authenticatiecode per e‑mail gestuurd naar",
     "verify": "Verifiëren",
     "back": "Terug"
+  },
+   "step5": {
+    "heading": "Valutakeuze",
+    "description": "Kies uw voorkeurvaluta",
+    "please_select": "Selecteer alstublieft",
+    "currency" :"Valuta "
   }
 },
 

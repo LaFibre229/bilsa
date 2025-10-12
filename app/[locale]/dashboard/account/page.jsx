@@ -5,7 +5,7 @@ import { useState, useEffect } from 'react'
 import api from '@/lib/api/api'
 import { toast } from 'sonner'
 import FullPageLoader from '@/components/FullPageLoader'
-import { MdOutlineMailLock, MdWork } from "react-icons/md";
+import { MdOutlineMailLock, MdWork, MdOutlinePermIdentity } from "react-icons/md";
 import { LiaBirthdayCakeSolid } from "react-icons/lia";
 import { BiSolidMessageAltDetail } from "react-icons/bi";
 import { FaMarsStroke, FaQuestionCircle, FaVenus , FaLongArrowAltRight, FaLongArrowAltLeft} from "react-icons/fa";
@@ -129,6 +129,12 @@ const AccountPage = () => {
                  <div className='flex flex-row items-center gap-4 font-roboto'>
                   <FaLocationDot className='opacity-50 w-5 h-5'/>
                   <span>{`${t("personal_infos.country")}  ${userInfos.user.postalcode} , ${userInfos.user.street}  ${userInfos.user.housenumber && (` , ${userInfos.user.housenumber}`)}`}</span>
+                  
+                 </div>
+
+                 <div className='flex flex-row items-center gap-4 font-roboto'>
+                  <MdOutlinePermIdentity className='opacity-50 w-5 h-5'/>
+                  <span>{`${t("personal_infos.socialSecurityNumber")} :  ${userInfos.user.socialSecurityNumber}`}</span>
                   
                  </div>
 

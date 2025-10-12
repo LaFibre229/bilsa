@@ -15,6 +15,14 @@ import { toast } from 'sonner'
 import { Input } from '../ui/input'
 import { MdOutlineMarkEmailRead } from "react-icons/md";
 import { useTranslations } from "next-intl"
+import {
+  Select,
+  SelectContent,
+  SelectItem,
+  SelectTrigger,
+  SelectValue,
+} from "@/components/ui/select"
+
 
 const VerifyAccountForm = () => {
     const [isLoaDing, setIsLoaDing] = useState(true)
@@ -24,10 +32,13 @@ const VerifyAccountForm = () => {
     const t2 = useTranslations('verifyAccount.step2');
     const t3 = useTranslations('verifyAccount.step3');
     const t4 = useTranslations('verifyAccount.step4');
+    // Actually t3 
+    const t5 = useTranslations('verifyAccount.step5');
   const [step, setStep] = useState(1)
   const [plan, setPlan] = useState("")
   const [email, setEmail] = useState("")
   const [code, setCode] = useState("")
+  const [currency, setCurrency] = useState("")
    useEffect (() =>{
       const fetchUserInfos = async () =>{
             try {
@@ -57,13 +68,13 @@ const VerifyAccountForm = () => {
 
   const handleSubmit = async () => {
     try {
-      const res = await api.post("/account/send-code", { email, plan })
+      const res = await api.post("/account/send-code", { email, plan, currency })
       if(res.status === 404){
         toast.error("Please , enter your registration mail .")
         return 
       }
       if(res.status === 200){
-        setStep(4)
+        setStep(5)
       }
     } catch (error) {
       console.log(error);
@@ -172,8 +183,79 @@ const VerifyAccountForm = () => {
     </div>
   );
 
+  case 3 : 
+  return (
+    <div className='flex flex-col space-y-8 text-textGreen'>
+      <h3 className='font-montserrat font-bold text-2xl text-center'>{t5('heading')}</h3>
 
-   case 3:
+      <p className='text-lg font-roboto text-center'>
+        {t5('description')}
+      </p>
+      <form>
+        <div className='flex flex-col space-y-10 '>
+
+            
+
+                <div className='border-b border-textGreen flex flex-row py-1 items-center justify-between px-2 cursor-pointer hover:border-b-2'>
+                  <div className='space-y-2 flex flex-col w-full'>
+                    <label htmlFor="currency" className='text-sm text-textGreen'>{t5('currency')}</label>
+                   
+                        <Select value={currency} onValueChange={setCurrency}>
+                          <SelectTrigger className="w-full">
+                            <SelectValue placeholder={t5("please_select")} />
+                          </SelectTrigger>
+                          <SelectContent className="max-h-60 overflow-y-auto bg-white rounded-md shadow-sm">
+                           
+                              <SelectItem value ="GPB">
+                                GBP
+                              </SelectItem>
+
+                               <SelectItem value ="EUR">
+                                EUR
+                              </SelectItem>
+
+                               <SelectItem value ="USD">
+                                USD
+                              </SelectItem>
+                          
+                          </SelectContent>
+                        </Select>
+                     
+                    
+                  </div>
+                </div>
+                
+              
+
+          
+
+          <div className='flex flex-row gap-4 mt-6 justify-between'>
+            <button
+              type="button"
+              onClick={handleBack}
+              className='bg-transparent py-2 px-6 flex flex-row items-center gap-3 rounded-md cursor-pointer border border-borderGreen font-inter font-semibold text-textGreen text-lg'
+            >
+              <FaLongArrowAltLeft />
+              {t2('back')}
+            </button>
+            <button
+              type="button"
+              disabled={!currency}
+              onClick={handleNext}
+              className='bg-yellow-500 py-2 px-6 flex flex-row items-center gap-3 rounded-md cursor-pointer text-lg text-textGreen font-inter font-semibold'
+            >
+              {t2('next')}
+              <FaLongArrowAltRight />
+            </button>
+          </div>
+
+        </div>
+      </form>
+    </div>
+  )
+
+
+   case 4:
   return (
     <div className='flex flex-col items-center space-y-8'>
       <h3 className='font-inter font-bold text-2xl text-textGreen'>{t3('heading')}</h3>
@@ -224,7 +306,7 @@ const VerifyAccountForm = () => {
   );
 
 
-      case 4:
+      case 5:
   return (
     <div className='flex flex-col items-center space-y-8 px-4 text-textGreen'>
       <h3 className='text-center font-montserrat font-medium'>{t4('heading')}</h3>
@@ -279,7 +361,7 @@ const VerifyAccountForm = () => {
 {isLoaDing 
 ? (<FullPageLoader />) 
 : (<div className="p-4 ">
-      <p className="mb-4 font-roboto font-semibold text-textGreen text-lg">Step {step} of 4</p>
+      <p className="mb-4 font-roboto font-semibold text-textGreen text-lg">Step {step} of 5</p>
       {renderStepContent()}
     </div>)}
     

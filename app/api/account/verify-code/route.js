@@ -10,7 +10,7 @@ export async function POST(req) {
  await connectDb();
 
   try {
-    const { email, code } = await req.json();
+    const { email, code} = await req.json();
 
     // Vérifier user
     const user = await User.findOne({ email });
