@@ -12,7 +12,7 @@ import { connectDb } from '@/lib/config/dbConnect';
 export const schedule = '*/1 * * * *'; // toutes les 1 minutes
 
 
-export async function GET() {
+export async function GET(req) {
    // Vérifie la clé secrète envoyée par le cron externe
   const authKey = req.headers.get("x-cron-key");
   if (authKey !== process.env.CRON_SECRET_KEY) {
