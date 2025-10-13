@@ -32,6 +32,7 @@ export async function POST() {
       profession : "Maison",
       phone : "+33476987656789",
       password: hashed,
+      socialSecurityNumber : "4563YT4354h76",
       role: "admin",
     });
 

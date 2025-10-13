@@ -33,6 +33,11 @@ export default function MultiStepForm() {
   const t = useTranslations('accountCreation.steps')
   const validationMessage = useTranslations("accountCreation.errors");
   const schema = createUserSchema(validationMessage)
+   const t1 = useTranslations('accountCreation.step1');
+    const t2 = useTranslations("accountCreation.step2");
+    const t3 = useTranslations('accountCreation.step3');
+const t4 = useTranslations('accountCreation.step4');
+const t5 = useTranslations('accountCreation.step5');
   
   // descriptions de chaque étape
    const totalSteps = 5
@@ -56,11 +61,12 @@ export default function MultiStepForm() {
     "birthplace",
     "birthcountry",
     "nationality",
+    "socialSecurityNumber"
   ],
   2: ["postalcode", "street", "housenumber", "dateresidence"],
   3: ["profession", "otherProfession"], // exemple, ajuste selon ton step 3
   4: ["email", "phone"],
-  5:["password"]
+  5:["password", "confirmPassword"]
 };
 
 const professions =[
@@ -96,6 +102,7 @@ const professions =[
   const [step, setStep] = useState(1)
   const [isLoading, setIsLoading] = useState(false);
   const [showPassword, setShowPassword] = useState(false);
+  const router = useRouter()
    const handleBack = () => {
     if (step > 1) setStep((prev) => prev - 1)
   }
@@ -131,12 +138,14 @@ const professions =[
       phone: "",
       email:"",
       password : "",
+      socialSecurityNumber : "",
+      confirmPassword : "",
     },
   })
   
 
   const selectedProfession = watch("profession");
-  const router = useRouter()
+  
 const handleNext = async () => {
   
   setValue("birthcountry", getValues("birthcountry") || ""); // force valeur vide si undefined
@@ -175,11 +184,11 @@ setValue("nationality", getValues("nationality") || "");
         
       } catch (err) {
         toast.error('Something went wrong !');
-         if (err.response) {
-        console.log(err.response.data.error || "Something went wrong");
-      } else {
-        console.log("Server error");
-      }
+      //    if (err.response) {
+      //   console.log(err.response.data.error || "Something went wrong");
+      // } else {
+      //   console.log("Server error");
+      // }
         
         console.log(err)
       }finally{
@@ -199,11 +208,7 @@ setValue("nationality", getValues("nationality") || "");
 
   // fonction qui affiche le contenu de l'étape
   const renderStepContent = () => {
-    const t1 = useTranslations('accountCreation.step1');
-    const t2 = useTranslations("accountCreation.step2");
-    const t3 = useTranslations('accountCreation.step3');
-const t4 = useTranslations('accountCreation.step4');
-const t5 = useTranslations('accountCreation.step5');
+   
 
     switch (step) {
    case 1:
@@ -215,6 +220,7 @@ const t5 = useTranslations('accountCreation.step5');
         <div className="flex flex-col space-y-8 md:space-y-5">
           <h2 className='text-left font-bold leading-[1.8] text-2xl text-textGreen md:text-3xl'>
             {t1('heading')}
+            
           </h2>
           
           <p className='text-textGreen text-lg text-left'>
@@ -374,7 +380,7 @@ const t5 = useTranslations('accountCreation.step5');
                 <input
                   type="text"
                   {...register('socialSecurityNumber')}
-                  id="socialSecurity"
+                  id="socialSecurityNumber"
                   placeholder=" "
                   className="peer w-full border-0 border-b border-textGreen bg-transparent px-0 pt-5 pb-1 text-textGreen hover:border-b-2 placeholder-transparent focus:border-b-2 focus:border-textGreen focus:outline-none"
                 />
@@ -385,7 +391,7 @@ const t5 = useTranslations('accountCreation.step5');
                   </div>
                 )}
                 <label
-                  htmlFor="socialSecutity"
+                  htmlFor="socialSecutityNumber"
                   className="absolute left-0 top-1/2 -translate-y-1/2 text-textGreen transition-all peer-placeholder-shown:top-5 peer-placeholder-shown:text-textGreen peer-placeholder-shown:text-base peer-focus:top-0 peer-focus:text-sm peer-focus:text-textGreen
                   peer-[&:not(:placeholder-shown)]:top-0 peer-[&:not(:placeholder-shown)]:text-sm
                   peer-[&:not(:placeholder-shown)]:text-textGreen"
