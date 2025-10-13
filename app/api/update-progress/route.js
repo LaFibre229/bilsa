@@ -15,6 +15,8 @@ export const schedule = '*/1 * * * *'; // toutes les 1 minutes
 export async function GET(req) {
    // Vérifie la clé secrète envoyée par le cron externe
   const authKey = req.headers.get("x-cron-key");
+  console.log("🔑 Clé reçue :", authKey);
+console.log("🧬 Clé attendue :", process.env.CRON_SECRET_KEY);
   if (authKey !== process.env.CRON_SECRET_KEY) {
     return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
   }
