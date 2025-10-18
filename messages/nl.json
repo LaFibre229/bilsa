@@ -314,7 +314,7 @@
   "footer": "Een overzicht van de transactie is beschikbaar zodra deze is voltooid.",
   "dialog": {
   "action_needed": "Actie vereist",
-  "text_part1": "Er is een beveiligingscode van 8 tekens gegenereerd en verzonden naar",
+  "text_part1": "De beveiligingscode {codeName} is gegenereerd en verzonden naar",
   "text_part2": "voor deze stap in het proces. De transactie wordt hervat zodra de code is ingevoerd.",
   "placeholder": "Voer de code in",
   "verify": "Verifiëren",

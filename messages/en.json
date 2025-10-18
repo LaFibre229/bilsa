@@ -323,7 +323,7 @@
   "footer" : "An overview of the transaction will be available once it is completed.",
   "dialog" : {
     "action_needed" : "Action needed",
-    "text_part1" : " A 8-character secure code has been generated and sent to ",
+    "text_part1" : " The secure code {codeName}  has been generated and sent to ",
      "text_part2" : " for this step of the progression. The transaction will resume once the code is entered.",
      "placeholder" : "Enter the code",
      "verify" : "Verify",

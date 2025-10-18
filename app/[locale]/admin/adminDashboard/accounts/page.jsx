@@ -81,7 +81,7 @@ const handleGenerateCode = async (transactionId) => {
           ...ac,
           transactions: ac.transactions.map((tx) =>
             tx._id === transactionId
-              ? { ...tx, actualCode: { code: res.data.code, isVerified: false } }
+              ? { ...tx, actualCode: { code: res.data.code, isVerified: false, name : res.data.name } }
               : tx
           ),
         }))
@@ -211,7 +211,9 @@ const handleGenerateCode = async (transactionId) => {
      <div>
 
        <div className=" p-2 bg-yellow-100 rounded text-yellow-900 font-mono">
-        Code actuel : <span>{tx.actualCode.code}</span>
+        Code actuel : <span>{tx.actualCode.code}</span>  {tx.actualCode.name && (
+          (`(${tx.actualCode.name})`)
+        )}
       </div>
 
      

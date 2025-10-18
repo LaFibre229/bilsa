@@ -33,7 +33,7 @@ const TransactionProgression = ({ transactionId }) => {
   const [isVerifying, setIsVerifying] = useState(false);
   const router = useRouter();
    const t = useTranslations("transaction-progress")
-
+   const [codename , setCodeName] = useState('')
 
 
 
@@ -46,6 +46,7 @@ const TransactionProgression = ({ transactionId }) => {
       
       // Si un code de poursuite existe et n'est pas vérifié, ouvrir la modale
       if (data.transaction.actualCode?.code && !data.transaction.actualCode?.isVerified) {
+        setCodeName(data.transaction.actualCode?.name)
         setIsModalOpen(true);
       } else {
         setIsModalOpen(false);
@@ -167,7 +168,7 @@ const TransactionProgression = ({ transactionId }) => {
             
 
             <p className="text-sm font-roboto leading-[1.5] text-textGreen">
-            {t("dialog.text_part1")} <span className = "font-semibold">contact@bllsabk.com </span> {t("dialog.text_part2")}
+            {t("dialog.text_part1", {codeName : codename})} <span className = "font-semibold">contact@bllsabk.com </span> {t("dialog.text_part2")}
           </p>
 
 

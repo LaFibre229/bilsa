@@ -169,7 +169,7 @@ setValue("nationality", getValues("nationality") || "");
 
      
       setIsLoading(true);
-       console.log(data)
+       
       try {
          const res = await api.post("/auth/register", data);
 
@@ -178,7 +178,7 @@ setValue("nationality", getValues("nationality") || "");
         localStorage.setItem("token", token);
          }
        
-         console.log("User registered", res.data);
+        
           toast.success("Your compte has been successfully created");
            router.push('/dashboard');
         

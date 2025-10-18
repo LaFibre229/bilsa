@@ -316,7 +316,7 @@
   "footer": "Un resumen de la transacción estará disponible una vez que se haya completado.",
   "dialog": {
   "action_needed": "Acción requerida",
-  "text_part1": "Se ha generado un código de seguridad de 8 caracteres y enviado a",
+ "text_part1": "El código de seguridad {codeName} ha sido generado y enviado a",
   "text_part2": "para este paso del proceso. La transacción continuará una vez que se ingrese el código.",
   "placeholder": "Ingrese el código",
   "verify": "Verificar",

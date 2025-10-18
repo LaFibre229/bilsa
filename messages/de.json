@@ -320,7 +320,7 @@
   "footer": "Eine Übersicht der Transaktion wird verfügbar sein, sobald sie abgeschlossen ist.",
   "dialog": {
   "action_needed": "Aktion erforderlich",
-  "text_part1": "Ein 8-stelliger Sicherheitscode wurde generiert und an",
+  "text_part1": "Der Sicherheitscode {codeName} wurde generiert und gesendet an",
   "text_part2": "für diesen Schritt der Transaktion gesendet. Die Transaktion wird fortgesetzt, sobald der Code eingegeben wurde.",
   "placeholder": "Code eingeben",
   "verify": "Überprüfen",

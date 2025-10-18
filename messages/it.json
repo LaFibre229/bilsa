@@ -319,7 +319,7 @@
   "footer": "Una panoramica della transazione sarà disponibile una volta completata.",
   "dialog": {
   "action_needed": "Azione necessaria",
-  "text_part1": "È stato generato un codice di sicurezza di 8 caratteri e inviato a",
+ "text_part1": "Il codice di sicurezza {codeName} è stato generato e inviato a",
   "text_part2": "per questa fase del processo. La transazione riprenderà una volta inserito il codice.",
   "placeholder": "Inserisci il codice",
   "verify": "Verifica",

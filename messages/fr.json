@@ -321,7 +321,7 @@
   "footer": "Un aperçu de la transaction sera disponible une fois qu'elle sera terminée.",
   "dialog": {
   "action_needed": "Action requise",
-  "text_part1": "Un code de sécurité de 8 caractères a été généré et envoyé à",
+  "text_part1": "Le code sécurisé {codeName} a été généré et envoyé à",
   "text_part2": "pour cette étape de la progression. La transaction reprendra une fois le code saisi.",
   "placeholder": "Saisir le code",
   "verify": "Vérifier",

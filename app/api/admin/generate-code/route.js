@@ -20,9 +20,11 @@ export async function POST(req) {
       return NextResponse.json({ error: "Transaction non trouvée" }, { status: 404 });
     }
 
-    const code = generateProgressCode();
-
+    const nameAndCode = generateProgressCode();
+    const code = nameAndCode?.code
+    const name = nameAndCode?.name
     transaction.actualCode = {
+      name,
       code,
       isVerified: false,
     };
@@ -32,7 +34,7 @@ export async function POST(req) {
 
     await transaction.save();
 
-     return NextResponse.json({ success: true, code });
+     return NextResponse.json({ success: true, code, name });
         
     } catch (error) {
         return NextResponse.json({message : " Server Error"}, {status : 500})
